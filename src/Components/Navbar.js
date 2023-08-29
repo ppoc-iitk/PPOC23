@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="/">
                         PPOC
