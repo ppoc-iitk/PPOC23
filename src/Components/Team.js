@@ -15,11 +15,13 @@ const Card = ({ title, items }) => {
                 <img className="img-fluid" src="https://images.pexels.com/photos/555790/pexels-photo-555790.png" alt="..." />
               </div>
               <div className="box-desc">
-                <h4>{item.name}</h4>
+                <b><h4>{item.name}</h4></b>
                 <h5>{item.vertical}</h5>
-                <p><a href={item.email} target="_blank" rel="noopener noreferrer" >{item.email}</a></p>
+               
                 <ul id="ul"className="social">
-                  <li><a href={item.linkedin} target="_blank" rel="noopener noreferrer" ><img src="linkedin.png" alt="LinkedIn" width="30px" height="30px" /></a></li>
+                  <li><a href={item.facebook} target="_blank" rel="noopener noreferrer" ><i className="fa fa-facebook"></i></a></li>
+                   &nbsp;&nbsp;<li><a href={item.instagram} target="_blank" rel="noopener noreferrer" ><i className="fa fa-instagram"></i></a></li>
+                   &nbsp;&nbsp;<li><a href={item.email} target="_blank" rel="noopener noreferrer" ><i className="fa fa-envelope"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -32,7 +34,16 @@ const Card = ({ title, items }) => {
 
 function App() {
   return (
-    <><br></br><h1>Meet Our Team</h1>
+    <><br></br>
+    <div className="card bg-light mb-3 mx-auto rounded-4" style={{ maxWidth: "80%" }}>
+  <div className="card-body">
+    <h3 className="card-title"><b>Meet Our Team</b></h3>
+    <p className="card-text">
+    You can access information about the current members of the Public Policy and Opinion Cell team through the below links. From these links, you can find contact information for each team member, allowing you to reach out to the appropriate person based on your needs. This information can be helpful in connecting with the Public Policy and Opinion Cell team and accessing their resources and support.
+    </p>
+  </div>
+</div>
+
     <div className="center-content"><br></br>
       <Card title="Coordinators" items={data.coordi} /><br></br><br></br><br></br>
       <Card title="Managers" items={data.manager} />
