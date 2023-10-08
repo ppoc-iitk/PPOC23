@@ -1,7 +1,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Ruwudu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@500&family=Roboto+Slab:wght@300&family=Ruwudu&display=swap');@import url("http://fonts.googleapis.com/css?family=Oswald:400,300,700");
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@500&family=Lato&family=Roboto+Slab:wght@300&family=Ruwudu&display=swap');
 h1,h2{
 	 font-family: 'Ruwudu', serif;;
+}
+.card-title{
+	font-family: 'Gabarito', serif;;
+}
+.card-text{
+	font-family: 'Lato', serif;;
 }
 .box {
 	border-radius: 150px;
@@ -100,7 +108,7 @@ a{
   }
   
   .card {
-	border: 1px solid #ccc;
+	border: 1px solid #cccccc9a;
 	padding: 10px;
 	background-color: white;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
