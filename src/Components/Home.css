@@ -1,0 +1,103 @@
+body,html{
+    height: 100%;
+    width:100%;
+}
+.bg{
+    background-image: url(../../public/parliament.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.heading{
+    padding-top: 170px;
+    text-align: left;
+    padding-left: 91px;
+    font-size: 80px;
+    color: white;
+}
+.quote{
+    text-align: left;
+    font-size: 20px;
+    color: white;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+/* Home.css */
+  
+.content-container {
+  display: flex;
+  align-items: center; /* Vertically center align content */
+  justify-content: space-between; /* Add space between the image and text */
+  padding: 20px; /* Add padding as needed */
+}
+
+.imag {
+  flex: 1; /* Take up available space */
+  background-image: url('../../public/about.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px; /* Set an appropriate height for the image container */
+}
+
+.text-container {
+  flex: 2; /* Take up more space to accommodate text */
+  padding: 20px; /* Add padding as needed */
+}
+.about{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.about-title{
+  font-size: 40px;
+}
+.about_heading{
+    font-size: 28px;
+    padding: 50px;
+    padding-bottom: 10px;
+}
+.about_main{
+    font-size: 20px;
+    padding: 20px;
+    padding-top: 0px;
+}
+.slider-slide {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center; /* Vertically center align content */
+  justify-content: space-between; /* Add space between the image and text */
+  padding-right: 20px; /* Add padding as needed */
+}
+
+/* Style for the image container */
+.image-container {
+  flex: 1; /* Allow image to take available space */
+  padding: 10px; /* Add spacing as needed */
+}
+
+/* Style for the image */
+.slider-image {
+  float: left;
+  width: 300px; /* Ensure the image fits within its container */
+  height: 300px; /* Maintain aspect ratio */
+}
+
+/* Style for the text container */
+.text-container {
+  flex: 2; /* Allow text to take available space */
+  padding: 20px; /* Add spacing as needed */
+}
+/* Style the slider container */
+.slider-container {
+  position: relative;
+  padding-left: 35px;
+  max-width: 95%; /* Optionally set a maximum width */
+  height: 400px; /* Set a fixed or percentage-based height */
+  overflow: hidden; /* Hide any content that overflows */
+}
+.recent-activities{
+  padding-top: 50px;
+}
+
+
