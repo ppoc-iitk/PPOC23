@@ -28,7 +28,7 @@ function App() {
 
 
   <div className="container">
-  <div className="card">
+  <div className="cardmain">
     <div className="card__header">
       <img
         src="policy_conclave.png"
@@ -54,7 +54,7 @@ function App() {
       </div>
     </div>
   </div>
-  <div className="card">
+  <div className="cardmain">
     <div className="card__header">
       <img
         src="gov.jpeg"
@@ -79,7 +79,7 @@ function App() {
       </div>
     </div>
   </div>
-  <div className="card">
+  <div className="cardmain">
     <div className="card__header">
       <img
         src="hunt.jpeg"
