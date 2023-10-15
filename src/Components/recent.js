@@ -34,12 +34,12 @@ const ImageSlider = () => {
       {sliderData.map((slide, index) => (
         <div key={index} className="slider-slide">
 
-            <p><img
+            <p className='slider-content'><img
               src={slide.image}
               alt={`Slide ${index + 1}`}
               className="slider-image"
             />
-            {slide.text}</p>
+            <div className='slider-text'>{slide.text}</div></p>
         </div>
       ))}
     </Slider>

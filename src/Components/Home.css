@@ -28,38 +28,85 @@ body,html{
   display: flex;
   align-items: center; /* Vertically center align content */
   justify-content: space-between; /* Add space between the image and text */
-  padding: 20px; /* Add padding as needed */
+  padding: 10px; /* Add padding as needed */
 }
 
 .imag {
-  flex: 1; /* Take up available space */
+  flex: 3; /* Take up available space */
   background-image: url('../../public/about.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 400px; /* Set an appropriate height for the image container */
+  height: 590px;
+  width: 609px; /* Set an appropriate height for the image container */
 }
 
 .text-container {
   flex: 2; /* Take up more space to accommodate text */
   padding: 20px; /* Add padding as needed */
 }
+.read-more-button {
+  background-color: #007bff; /* Blue color, you can customize this */
+  color: white;
+  /* padding: 10px 20px; */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 152px;
+  height: 54px;
+  flex-shrink: 0;
+  border-radius: 18px;
+  background: #5987B0;
+}
 .about{
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 60px;
+  padding-bottom: 20px;
 }
 .about-title{
-  font-size: 40px;
+  color: #000;
+  font-family: Merriweather;
+  font-size: 55.08px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.recent-title{
+  color: #000;
+  font-family: Merriweather;
+  font-size: 55.08px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 60px;
 }
 .about_heading{
-    font-size: 28px;
-    padding: 50px;
-    padding-bottom: 10px;
+  color: #0F0F0F;
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5;
+    /* padding: 50px; */
+    /* padding-bottom: 10px; */
+    width: 582px;
+height: 225px;
 }
 .about_main{
-    font-size: 20px;
-    padding: 20px;
-    padding-top: 0px;
+  width: 594px;
+height: 335px;
+  color: #565656;
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 600;
+  /* line-height: 1.5; */
+    /* padding: 20px;
+    padding-top: 0px; */
+    width: 594px;
+height: 305px;
+
 }
 .slider-slide {
   width: 50%;
@@ -69,7 +116,14 @@ body,html{
   justify-content: space-between; /* Add space between the image and text */
   padding-right: 20px; /* Add padding as needed */
 }
-
+.slider{
+  /* padding-top: 50px; */
+  width: 1100px;
+  border-radius: 97px;
+background: #FFF;
+/* box-sizing: border-box; */
+box-shadow: 0px 0px 14px 6px rgba(0, 0, 0, 0.19);
+}
 /* Style for the image container */
 .image-container {
   flex: 1; /* Allow image to take available space */
@@ -78,6 +132,7 @@ body,html{
 
 /* Style for the image */
 .slider-image {
+  padding-right: 40px;
   float: left;
   width: 300px; /* Ensure the image fits within its container */
   height: 300px; /* Maintain aspect ratio */
@@ -86,7 +141,8 @@ body,html{
 /* Style for the text container */
 .text-container {
   flex: 2; /* Allow text to take available space */
-  padding: 20px; /* Add spacing as needed */
+  padding: 20px;
+   /* Add spacing as needed */
 }
 /* Style the slider container */
 .slider-container {
@@ -96,8 +152,21 @@ body,html{
   height: 400px; /* Set a fixed or percentage-based height */
   overflow: hidden; /* Hide any content that overflows */
 }
+.slider-content{
+  padding-top: 40px;
+  color: #565656;
+text-align: justify;
+font-family: Poppins;
+font-size: 23px;
+font-style: normal;
+font-weight: 600;
+line-height: 1.5;
+}
 .recent-activities{
   padding-top: 50px;
+  padding-left: 100px;
 }
-
+.slider-text{
+  padding-top: 50px;
+}
 
