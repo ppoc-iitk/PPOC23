@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@500&family=Kanit&family=Lato&family=Roboto+Condensed&family=Roboto+Slab:wght@300&family=Ruwudu&display=swap');
+.heading{
+    color: #000;
+
+    font-family: Merriweather;
+    font-size: 53.712px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    text-decoration: underline #336B9E 6px;
+    
+}
+.teamsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+hr.solid {
+    border-top: 2px solid #4e4b4b;
+    width:70%;
+   
+}
+.knowteam{
+    width: auto;
+    padding: 8px 16px;
+    background-color: #336B9E;
+    border-radius: 8px;
+    font-size: larger;
+    font-weight: bold;
+    color:#fff;
+}
+.knowteam a{
+    text-decoration: none;
+    color: #fff;
+}
+.teamcard {
+    position: relative;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 85px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+    padding: 16px;
+    margin:  56px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:20rem;
+}
+.teamcard:hover{
+    transition: all 0.3s ease;
+    background-image: linear-gradient(to right, #3c70a4 0%, #64b2cd 100%);
+    
+}
+.teamcard:hover p{
+    color:aliceblue
+}
+.card-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 15px 35px -15px rgba(0, 0, 0, 0.5),
+    0 5px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-image img {
+    width: 100%;
+    transform: scale(1.2);
+}
+
+p {
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-bottom: 12px;
+    text-align: center;
+  
+
+    
+   
+}
+
+.name {
+    margin-top: 65px;
+    font-size: 1.7em;
+    color: #333;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    margin-bottom: 15px;
+}
+.post{
+    font-size: 1em;
+    color: #333;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: 12px 8px;
+    width: 44px;
+    height: 44px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: opacity 0.4s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button i {
+    color: #fff;
+    font-size: 1.4em;
+}
+
+/* Social media colors */
+button.github {
+    background-color: #24292e;
+} 
+button.linkedin {
+    background-color: #1d9635;
+}
+button.twitter {
+    background-color: #1da1f2;
+}
+
+button.pinterest {
+    background-color: #d3263a;
+} 

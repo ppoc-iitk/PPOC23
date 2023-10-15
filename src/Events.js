@@ -13,7 +13,7 @@ function App() {
     style={{
       backgroundImage:
         'url("back.jpeg")',
-      height: 160
+      height: 150
     }}
   >
     <div className="mask" >
@@ -111,7 +111,7 @@ function App() {
     style={{
       backgroundImage:
         'url("back.jpeg")',
-      height: 150
+      height: 160
     }}
   >
     <div className="mask" >
