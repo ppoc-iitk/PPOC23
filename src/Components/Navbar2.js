@@ -3,22 +3,21 @@ import './Navbar2.css';
 const Navbar = () => {
   return (
     <div>
-      <nav>
-        <ul className="navbar">
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="/">About</a>
-          </li>
-          <li>
-            <a href="/">Blogs</a>
-          </li>
-          <li>
-            <a href="/">Team</a>
-          </li>
-        </ul>
-      </nav>
+      <header>
+        <div className="nav-bar">
+          <a href="/" className="logo"><img src="logo.png"  alt=""/></a>
+            <div className="navigation">
+                <div className="nav-items">
+                    <a href="/">Home</a>
+                    <a href="#about">About</a>
+                    <a href="/blog">Articles</a>
+                    <a href="/events">Events</a>
+                    <a href="/team">Team</a>
+                    <a href="/contact">Contact</a>
+                </div>
+            </div>
+        </div>
+      </header>
     </div>
   );
 };

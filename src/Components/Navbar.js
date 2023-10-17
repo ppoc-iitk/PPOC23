@@ -1,62 +1,32 @@
-import React from "react";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import './Navbar2.css';
+  
 
-const Navbar = () => {
-    return (
-        <div>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-                <div className="container-fluid">
-                    <a className="navbar-brand" href="/">
-                        PPOC
-                    </a>
-                    <button
-                        className="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarNav"
-                        aria-controls="navbarNav"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarNav">
-                        <ul className="navbar-nav">
-                            <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="/">
-                                    Home
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">
-                                    About Us
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="/team">
-                                    Team
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="/blog">
-                                    Blogs
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="/Events">
-                                    Events
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="/contact">
-                                    Contact Us
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    );
-};
+function Menubar() {
+  return (
+    <Navbar sticky="top" bg="dark" expand="lg" id="menubar">
+      <Container>
+        <Navbar.Brand href="/">
+            <img class="iitk" src="IIT K logo.jpg" alt="" />
+          <img id="ppoc-logo" src="ppoc logo.png" alt="Logo"></img>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="ms-auto justify-content-center navaa">
+        
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="#about">About Us</Nav.Link>
+            <Nav.Link href="/blog">Articles</Nav.Link>
+            <Nav.Link href="/events">Events</Nav.Link>
+            <Nav.Link href="/team">Team</Nav.Link>
+            <Nav.Link href="/contact">Contact</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
+}
 
-export default Navbar;
+export default Menubar;

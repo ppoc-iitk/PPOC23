@@ -8,7 +8,7 @@ export default function Home() {
     <h1 className="heading">Public Policy and<br></br>Opinion Cell</h1>
     <h2 className="quote">"There's Tremendous Gap Between Public<br></br> Opinion and Public Policy" - Noam Chomsky</h2>
     </div>
-    <div className='about'>
+    <div className='about' id='about'>
       <h1 className='about-title'>About us</h1>
     <div className="content-container">
         <div className="imag"></div>

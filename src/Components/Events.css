@@ -45,13 +45,15 @@ body, html {
    @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 
    
-   .container {
+   .container0 {
      display: flex;
      flex-wrap: wrap;
      justify-content: center;
      max-width: 1200px;
      margin-block: 2rem;
      gap: 3rem;
+     margin-left: auto;
+     margin-right: auto;
    }
    
    img {
@@ -201,7 +203,7 @@ body, html {
     }
   }
   
-  .container-title {
+  /* .container-title {
     text-align: center;
     padding: 0 !important;
     margin-bottom: 40px;
@@ -209,7 +211,7 @@ body, html {
     color: #fff;
     font-weight: 600;
     line-height: 60px;
-  }
+  } */
   
   .card1 {
     max-width: 550px;
