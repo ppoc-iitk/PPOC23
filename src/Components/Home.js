@@ -19,12 +19,15 @@ export default function Home() {
           <div className='about_main'>
             PPOC conducts enlightening discussions and workshop sessions among students’ community regarding various socio-economic and political issues of national and international interest. Apart from the regular sessions, we regularly publish blogs, newsletters, and research articles on these important contemporary issues. These activities earn a tremendously optimistic rejoinder from the student's group and conclude with great notions.
           </div>
+          <button className='read-more-button'>Read More</button>
         </div>
       </div>
       </div>
       <div className='recent-activities'>
-        <h1 className='about-title'>Recent Activities</h1>
+        <h1 className='recent-title'>Recent Activities</h1>
+        <div className='slider'>
       <ImageSlider/>
+      </div>
       </div>
     </>
   )
