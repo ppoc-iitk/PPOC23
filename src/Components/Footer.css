@@ -1,0 +1,40 @@
+.footer {
+    background-color:rgb(19, 45, 65);
+    font-family: merriweather;
+    color: white;
+}
+.footer h4{
+    color:aqua;
+}
+.col{
+    text-align: justify;
+    margin-left: 20px;
+}
+.lines{
+    width: 80%;
+}
+.icon-container{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width:500px){
+    .content {
+      flex-direction: column;
+    }
+    .col{
+        text-align: center;
+    }
+}
+
+
+
