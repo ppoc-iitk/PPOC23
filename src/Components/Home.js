@@ -1,6 +1,11 @@
 import React from 'react'
 import './Home.css'
 import ImageSlider from '../Components/recent'
+import SponsorSlider from '../Components/sponsor'
+import BlogSlider from '../Components/BlogSlider'
+import ProjectSlider from '../Components/ProjectSlider'
+import Teamsection from './teamsection'
+import Gallery from './Gallery'
 export default function Home() {
   return (
     <>
@@ -10,6 +15,7 @@ export default function Home() {
     </div>
     <div className='about' id='about'>
       <h1 className='about-title'>About us</h1>
+      <div className="headline"></div>
     <div className="content-container">
         <div className="imag"></div>
         <div className="text-container">
@@ -29,6 +35,37 @@ export default function Home() {
       <ImageSlider/>
       </div>
       </div>
+
+      <img src="vector.png" alt="" className='vector' />
+      <div className='Articles'>
+        <h1 className='recent-title'>Articles</h1>
+        <div className='blog-slider'>
+      <BlogSlider/>
+      </div>
+      </div>
+      <div className='Articles'>
+        <h1 className='recent-title'>Our Projects</h1>
+        <div className='blog-slider'>
+      <ProjectSlider/>
+      </div>
+      </div>
+      <div className='Articles'>
+        <h1 className='recent-title'>Our Team</h1>
+        <div className='blog-slider'>
+      <Teamsection/>
+      </div>
+      </div>
+      <h1 id='gallery' className='gallery-head'>Our Gallery</h1>
+      <Gallery/>
+
+      <div className='recent-activities'>
+        <h1 className='recent-title'>Our Past Sponsors</h1>
+        <div className='slider'>
+      <SponsorSlider/>
+      </div>
+      </div>
+      <img src="vector2.png" alt="" className='vector' />
+      
     </>
   )
 }

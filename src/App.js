@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Blog from './Components/Blog';
 import Team from './Components/Team';
 import Events from './Components/Events';
+import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 
@@ -18,6 +19,7 @@ function App() {
           <Route path="/blog" element={<Blog/>}></Route>
           <Route path="/events" element={<Events/>}></Route>
           <Route path="/team" element={<Team/>}></Route>
+          <Route path="/projects" element={<Projects/>}></Route>
           <Route path="/contact" element={<Contact/>}></Route>
         </Routes> 
       </Router>

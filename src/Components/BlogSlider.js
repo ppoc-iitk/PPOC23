@@ -1,21 +1,37 @@
 import React from 'react';
 import './blog.css';
 import data from '../database/blogdata.json';
+import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-const BlogCard = ({ blogs }) => {
+const BlogCard = ({ title, blogs }) => {
+  // Slick settings
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3, // Number of slides to show at a time
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 768, // Adjust the number of slides for smaller screens
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+  };
 
   return (
-    <div>
-      <div className="blog-container">
+      <div className="slider-container-blog">
         {/* Content including slider */}
-
-          {data.blogs.map((blog) => (
-            <div className="blog-box" key={blog.id}>
+        <Slider {...settings}>
+        {data.blogs.map((blog) => (
+            <div className="blog-box-slide" key={blog.id}>
                 <div className="blog-img">
                     <a href={blog['Read more']} target="_blank" rel="noopener noreferrer">
-                        <img src={blog.image} alt="New Image Name" />
+                        <img src={blog.image} alt="" />
                     </a>
                 </div>
                 <div className="blog-text">
@@ -29,27 +45,10 @@ const BlogCard = ({ blogs }) => {
                 </div>
             </div>
           ))}
+        </Slider>
+        <a href="/blog" class="blog-btn">Explore Now</a>
       </div>
-    </div>
   );
 };
 
-function App() {
-    return (
-      <><br></br>
-        <div className="card bg-light mb-3 mx-auto rounded-4 w-180" style={{ maxWidth: "80%" }}>
-          <div className="card-body">
-            <h3 className="card-title"><b>Our Blogs.</b></h3>
-            <p className="card-text">
-            Thoughts, Ideas, Insights and Other Stuff.
-            </p>
-          </div>
-        </div>
-  <br></br>
-        <BlogCard items={data} /><br></br><br></br><br></br>
-
-      </>
-        );
-  }
-  
-  export default App;
+export default BlogCard;

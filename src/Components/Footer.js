@@ -9,15 +9,15 @@ export default function Footer() {
       <br></br>
       <br></br>
       <div class="content">
-    <div class="col">
+    <div class="col1">
     <h5>Quick Links</h5>
     <p>IIT Kanpur <br></br>PPOC<br></br>Policy Conclave</p>
     </div>
-    <div class="col">
+    <div class="col1">
     <h5>More Links</h5>
     <p>IIT Kanpur <br></br>PPOC<br></br>Policy Conclave</p>
     </div>
-    <div class="col">
+    <div class="col1">
     <h5>CONTACT US</h5>
     <p>Indian Institute of Technology Kanpur 
 Kanpur, Uttar Pradesh, 208016<br></br>Email: ppoc@iitk.ac.in</p>

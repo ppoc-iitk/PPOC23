@@ -6,12 +6,13 @@
 .footer h4{
     color:aqua;
 }
-.col{
+.col1{
     text-align: justify;
-    margin-left: 20px;
+    margin-left: 190px;
 }
 .lines{
     width: 80%;
+    margin: 12px 0;
 }
 .icon-container{
     display: flex;
@@ -26,6 +27,7 @@
 .content{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 @media (max-width:500px){
     .content {

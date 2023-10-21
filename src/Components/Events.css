@@ -56,7 +56,7 @@ body, html {
      margin-right: auto;
    }
    
-   img {
+   .card__image {
      max-width: 100%;
      display: block;
      object-fit: cover;

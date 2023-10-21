@@ -4,15 +4,21 @@ import "./Contact.css"
 export default function Contact() {
   return (
     <div className="page">
-     <div  className="bg-image"
-    style={{
-      backgroundImage: "url(/back.jpg)",
-      height: "20vh",
-    }}>
-      <h5>Do you have a question?</h5>
-      <h1>Contact Us</h1>
-      <h5>Feel free to get in touch with us!</h5>
-    </div>
+     <div
+        className="card bg-light mb-3 mx-auto rounded-4 w-180"
+        style={{ maxWidth: "80%", margin: "20px 0" }}
+      >
+        <div className="card-body">
+          <h3 className="card-title">
+            <b>Contact Us</b>
+          </h3>
+          <p className="card-text">
+            <strong>Do you have any Questions?</strong>
+            <br/>
+            Feel free to get in touch with us!
+          </p>
+        </div>
+      </div>
     <br></br>
       <div class="container text-center">
   <div class="content">

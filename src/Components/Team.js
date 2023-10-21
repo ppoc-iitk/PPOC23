@@ -1,6 +1,5 @@
-// App.js
 import React from 'react';
-import data from './data.json'; // Your JSON data here
+import data from '../database/data.json'; // Your JSON data here
 import './team.css';
 
 const Card = ({ title, items }) => {
@@ -12,7 +11,7 @@ const Card = ({ title, items }) => {
           <div className="col-sm-6 col-lg-3 my-auto" key={item.id}>
             <div className="box shadow-sm p-4">
               <div className="image-wrapper mb-3">
-                <img className="img-fluid" src="https://images.pexels.com/photos/555790/pexels-photo-555790.png" alt="..." />
+                <img className="img-fluid" src={item.image} alt="..." />
               </div>
               <div className="box-desc">
                 <b><h4>{item.name}</h4></b>
@@ -20,8 +19,8 @@ const Card = ({ title, items }) => {
 
                 <ul id="ul" className="social">
                   <li><a href={item.facebook} target="_blank" rel="noopener noreferrer" ><i className="fa fa-facebook"></i></a></li>
-                  &nbsp;&nbsp;<li><a href={item.instagram} target="_blank" rel="noopener noreferrer" ><i className="fa fa-instagram"></i></a></li>
-                  &nbsp;&nbsp;<li><a href={item.email} target="_blank" rel="noopener noreferrer" ><i className="fa fa-envelope"></i></a></li>
+                  &nbsp;&nbsp;<li><a href={item.Instagram} target="_blank" rel="noopener noreferrer" ><i className="fa fa-instagram"></i></a></li>
+                  &nbsp;&nbsp;<li><a href={item.linkedin} target="_blank" rel="noopener noreferrer" ><i className="fa fa-linkedin"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -32,7 +31,7 @@ const Card = ({ title, items }) => {
   );
 };
 
-function App() {
+function Team() {
   return (
     <><br></br>
       <div className="card bg-light mb-3 mx-auto rounded-4 w-180" style={{ maxWidth: "80%" }}>
@@ -52,7 +51,7 @@ function App() {
             <div className="col-sm-6 col-lg-3 my-auto">
               <div className="box shadow-sm p-4">
                 <div className="image-wrapper mb-3">
-                  <img className="img-fluid" src="faculty.jpg" alt="..." />
+                  <img className="img-fluid" src="https://i.postimg.cc/J4JzhPmM/faculty.jpg" alt="..." />
                 </div>
                 <div className="box-desc">
                   <b><h4>Dr. Pradeep Swarnakar</h4></b>
@@ -74,4 +73,4 @@ function App() {
       );
 }
 
-export default App;
+export default Team;

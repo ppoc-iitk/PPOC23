@@ -9,8 +9,8 @@ function Menubar() {
     <Navbar sticky="top" bg="dark" expand="lg" id="menubar">
       <Container>
         <Navbar.Brand href="/">
-            <img class="iitk" src="IIT K logo.jpg" alt="" />
-          <img id="ppoc-logo" src="ppoc logo.png" alt="Logo"></img>
+            <img class="iitk" src="https://i.postimg.cc/90z57Xsv/IIT-K-logo.jpg" alt="" />
+          <img id="ppoc-logo" src="https://i.postimg.cc/bYRs0mWg/ppoc-logo.png" alt="Logo"></img>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -19,8 +19,10 @@ function Menubar() {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="#about">About Us</Nav.Link>
             <Nav.Link href="/blog">Articles</Nav.Link>
+            <Nav.Link href="/projects">Projects</Nav.Link>
             <Nav.Link href="/events">Events</Nav.Link>
             <Nav.Link href="/team">Team</Nav.Link>
+            <Nav.Link href="#gallery">Gallery</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>

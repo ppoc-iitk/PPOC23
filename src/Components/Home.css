@@ -1,29 +1,30 @@
-body,html{
-    height: 100%;
-    width:100%;
+body,
+html {
+  height: 100%;
+  width: 100%;
 }
-.bg{
-    background-image: url(../../public/parliament.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+.bg {
+  background-image: url(../../public/parliament.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
-.heading{
-    padding-top: 170px;
-    text-align: left;
-    padding-left: 91px;
-    font-size: 80px;
-    color: white;
+.heading {
+  padding-top: 170px;
+  text-align: left;
+  padding-left: 91px;
+  font-size: 80px;
+  color: white;
 }
-.quote{
-    text-align: left;
-    font-size: 20px;
-    color: white;
-    padding-left: 100px;
-    padding-top: 10px;
+.quote {
+  text-align: left;
+  font-size: 20px;
+  color: white;
+  padding-left: 100px;
+  padding-top: 10px;
 }
 /* Home.css */
-  
+
 .content-container {
   display: flex;
   align-items: center; /* Vertically center align content */
@@ -32,8 +33,8 @@ body,html{
 }
 
 .imag {
-  flex: 3; /* Take up available space */
-  background-image: url('../../public/about.png');
+  flex: 2 1; /* Take up available space */
+  background-image: url("../../public/about.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -56,57 +57,57 @@ body,html{
   height: 54px;
   flex-shrink: 0;
   border-radius: 18px;
-  background: #5987B0;
+  background: #5987b0;
+  margin-right: 490px;
 }
-.about{
+.about {
   padding-top: 60px;
   padding-bottom: 20px;
 }
-.about-title{
+.about-title {
   color: #000;
   font-family: Merriweather;
-  font-size: 55.08px;
+  font-size: 45.08px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
-.recent-title{
+.recent-title {
   color: #000;
   font-family: Merriweather;
-  font-size: 55.08px;
+  font-size: 45.08px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
-.about_heading{
-  color: #0F0F0F;
+.about_heading {
+  color: #0f0f0f;
   text-align: justify;
   font-family: Poppins;
-  font-size: 33px;
+  font-size: 27px;
   font-style: normal;
   font-weight: 600;
   line-height: 1.5;
-    /* padding: 50px; */
-    /* padding-bottom: 10px; */
-    width: 582px;
-height: 225px;
+  /* padding: 50px; */
+  /* padding-bottom: 10px; */
+  width: 582px;
+  height: 158px;
 }
-.about_main{
+.about_main {
   width: 594px;
-height: 335px;
+  height: 335px;
   color: #565656;
   text-align: justify;
   font-family: Poppins;
-  font-size: 23px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 600;
   /* line-height: 1.5; */
-    /* padding: 20px;
+  /* padding: 20px;
     padding-top: 0px; */
-    width: 594px;
-height: 305px;
-
+  width: 594px;
+  height: 280px;
 }
 .slider-slide {
   width: 50%;
@@ -116,13 +117,15 @@ height: 305px;
   justify-content: space-between; /* Add space between the image and text */
   padding-right: 20px; /* Add padding as needed */
 }
-.slider{
+.slider {
   /* padding-top: 50px; */
   width: 1100px;
   border-radius: 97px;
-background: #FFF;
-/* box-sizing: border-box; */
-box-shadow: 0px 0px 14px 6px rgba(0, 0, 0, 0.19);
+  background: #fff;
+  /* box-sizing: border-box; */
+  box-shadow: 0px 0px 14px 6px rgba(0, 0, 0, 0.19);
+  margin: 0px 45px;
+  margin-bottom: 45px;
 }
 /* Style for the image container */
 .image-container {
@@ -132,41 +135,91 @@ box-shadow: 0px 0px 14px 6px rgba(0, 0, 0, 0.19);
 
 /* Style for the image */
 .slider-image {
-  padding-right: 40px;
   float: left;
   width: 300px; /* Ensure the image fits within its container */
   height: 300px; /* Maintain aspect ratio */
+  border-radius: 20px;
+  margin: 20px;
 }
 
 /* Style for the text container */
 .text-container {
   flex: 2; /* Allow text to take available space */
   padding: 20px;
-   /* Add spacing as needed */
+  /* Add spacing as needed */
 }
 /* Style the slider container */
 .slider-container {
   position: relative;
   padding-left: 35px;
   max-width: 95%; /* Optionally set a maximum width */
-  height: 400px; /* Set a fixed or percentage-based height */
+  height: 445px; /* Set a fixed or percentage-based height */
   overflow: hidden; /* Hide any content that overflows */
 }
-.slider-content{
+.slider-content {
   padding-top: 40px;
   color: #565656;
-text-align: justify;
-font-family: Poppins;
-font-size: 23px;
-font-style: normal;
-font-weight: 600;
-line-height: 1.5;
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5;
 }
-.recent-activities{
-  padding-top: 50px;
+.recent-activities {
+  padding-top: 30px;
   padding-left: 100px;
 }
-.slider-text{
-  padding-top: 50px;
+.slider-text {
+  padding-top: 25px;
 }
 
+/* styles for sponsor */
+.sponsor {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center; /* Vertically center align content */
+  justify-content: space-between; /* Add space between the image and text */
+  padding-right: 20px; /* Add padding as needed */
+}
+
+/* Style for the image */
+.sponsor-image {
+  float: left;
+  width: 220px; /* Ensure the image fits within its container */
+  height: 220px; /* Maintain aspect ratio */
+  margin: 20px;
+}
+
+/* Style the slider container */
+.sponsor-container {
+  position: relative;
+  padding-left: 35px;
+  height: 300px; /* Set a fixed or percentage-based height */
+  overflow: hidden; /* Hide any content that overflows */
+}
+
+.vector {
+  width: 100%;
+  height: 215px;
+}
+
+.headline {
+  background-color: rgba(51, 107, 158, 1);
+  height: 5px;
+  width: 110px;
+  border-radius: 1px;
+  margin-left: 588px;
+  margin-top: -11px;
+}
+
+.blog-slider{
+    background: #fff;
+    margin: 0px 100px;
+}
+.slider-container-blog {
+  position: relative;
+  overflow: hidden; /* Hide any content that overflows */
+  height: 780px;
+}
