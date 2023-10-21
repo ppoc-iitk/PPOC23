@@ -36,7 +36,7 @@ export default function Home() {
       </div>
       </div>
 
-      <img src="vector.png" alt="" className='vector' />
+      <img src="https://i.postimg.cc/W16tbDyh/Vector.png" alt="" className='vector' />
       <div className='Articles'>
         <h1 className='recent-title'>Articles</h1>
         <div className='blog-slider'>
@@ -64,7 +64,7 @@ export default function Home() {
       <SponsorSlider/>
       </div>
       </div>
-      <img src="vector2.png" alt="" className='vector' />
+      <img src="https://i.postimg.cc/85sCHZz6/Vector2.png" alt="" className='vector' />
       
     </>
   )
