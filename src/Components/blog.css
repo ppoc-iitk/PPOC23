@@ -89,3 +89,8 @@ a{
 .blog-btn:hover{
     background: rgb(39, 97, 147);
 }
+@media (max-width:565px){
+    .blog-box{
+        width:75%
+    }
+}

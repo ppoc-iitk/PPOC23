@@ -7,10 +7,30 @@ const SponsorSlider = () => {
   const sliderSettings = {
     infinite: true, // Loop the slides
     speed: 1000, // Transition speed in milliseconds
-    slidesToShow: 4, // Number of slides to show at once
+    slidesToShow: 5, // Number of slides to show at once
     slidesToScroll: 1, // Number of slides to scroll on each navigation
     autoplay: true, // Enable autoplay
     autoplaySpeed: 100,
+    responsive: [
+      {
+        breakpoint: 996,
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+      {
+        breakpoint: 786,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+    ],
   };
 
   // Sample data for your slider

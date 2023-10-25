@@ -38,14 +38,16 @@ const ImageSlider = () => {
     <Slider {...sliderSettings}>
       {sliderData.map((slide, index) => (
         <div key={index} className="slider-slide">
-
-            <p className='slider-content'><img
+            
+            <div className='slider-image'><img
               src={slide.image}
               alt={`Slide ${index + 1}`}
-              className="slider-image"
+        
             />
-            <div className='slider-text'>{slide.text}</div></p>
+            </div><div className='slider-content'>
+            <div className='slider-text'>{slide.text}</div>
             <a href={slide.link} class="blog-btn">Read More</a>
+        </div>
         </div>
       ))}
     </Slider>
