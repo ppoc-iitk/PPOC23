@@ -10,6 +10,7 @@ import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 import HashLoader from "react-spinners/HashLoader";
+import Blog1 from "./Components/blogs/Delhi_Ordinance_bill";
 
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
             <Route path="/team" element={<Team/>}></Route>
             <Route path="/projects" element={<Projects/>}></Route>
             <Route path="/contact" element={<Contact/>}></Route>
+            <Route path="/delhi_ordinance_bill" element={<Blog1/>}></Route>
           </Routes> 
       </Router>
        
