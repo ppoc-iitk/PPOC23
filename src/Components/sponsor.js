@@ -36,6 +36,24 @@ const SponsorSlider = () => {
   // Sample data for your slider
   const sliderData = [
     {
+      image: "https://i.postimg.cc/7LHQ6LjJ/visionias-logo.png",
+    },
+    {
+      image: "https://i.postimg.cc/xCWRKjpR/images-4.jpg",
+    },
+    {
+      image: "https://i.postimg.cc/FRJbs5FJ/Dainik-Jagran-newspaper-logo.jpg",
+    },
+    {
+      image: "https://i.postimg.cc/Nfx60xtb/images-5.jpg",
+    },
+    {
+      image: "https://i.postimg.cc/Pq0Z73bf/images.png",
+    },
+    {
+      image: "https://i.postimg.cc/qRfhwt0z/sima-final-black-text-with-shadow.jpg",
+    },
+    {
       image: "https://i.ibb.co/gtwSgFC/prs.png",
     },
     {

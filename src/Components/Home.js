@@ -6,26 +6,36 @@ import BlogSlider from '../Components/BlogSlider'
 import ProjectSlider from '../Components/ProjectSlider'
 import Teamsection from './teamsection'
 import Gallery from '../Components/Gal'
+import AOS from "aos";
+import 'aos/dist/aos.css'
+import { useEffect} from "react";
 export default function Home() {
+  useEffect(()=>{
+    AOS.init({duration: 2000})
+  }, []);
   return (
     <>
       <div className='bg'>
-        <h1 className="heading">Public Policy and<br></br>Opinion Cell</h1>
-        <h2 className="quote">"There's Tremendous Gap Between Public<br></br> Opinion and Public Policy" - Noam Chomsky</h2>
+        <h1 className="heading" data-aos="fade-up">Public Policy and<br></br>Opinion Cell</h1>
+        <h2 className="quote" data-aos="fade-up"  data-aos-easing="linear"
+     data-aos-duration="1500">"There's Tremendous Gap Between Public<br></br> Opinion and Public Policy" - Noam Chomsky</h2>
       </div>
       <div className='about' id='about'>
-        <h1 className='about-title'>About us</h1>
+        <h1 className='about-title' data-aos="fade-up" data-aos-once="true">About us</h1>
 
         <div className="content-container">
-          <div className="imag"><img src="about.png"></img></div>
-          <div className="text-container">
+          <div className="imag" data-aos="fade-right"data-aos-easing="linear"
+     data-aos-duration="1000" data-aos-once="true"></div>
+          <div className="text-container" data-aos="fade-left" data-aos-easing="linear"
+     data-aos-duration="1000" data-aos-once="true">
             <div className='about_heading'>
               Public Policy and Opinion Cell IIT Kanpur is the first student-run public policy think-tank among all 23 IITs across the nation.
             </div>
             <div className='about_main'>
               PPOC conducts enlightening discussions and workshop sessions among students’ community regarding various socio-economic and political issues of national and international interest. Apart from the regular sessions, we regularly publish blogs, newsletters, and research articles on these important contemporary issues. These activities earn a tremendously optimistic rejoinder from the student's group and conclude with great notions.
             </div><br></br>
-            <button className='read-more-button'>Read More</button>
+            <a href="/events"><button className='read-more-button'>Read More</button></a>
+            
           </div>
         </div>
       </div>

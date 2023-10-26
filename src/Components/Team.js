@@ -18,9 +18,9 @@ const Card = ({ title, items }) => {
                 <h5>{item.vertical}</h5>
 
                 <ul id="ul" className="social">
-                  <li><a href={item.facebook} target="_blank" rel="noopener noreferrer" ><i className="fa fa-facebook"></i></a></li>
+                <li><a href={item.linkedin} target="_blank" rel="noopener noreferrer" ><i className="fa fa-linkedin"></i></a></li>&nbsp;&nbsp;
+                  <li><a href={item.email} target="_blank" rel="noopener noreferrer" ><i className="fa fa-envelope"></i></a></li>
                   &nbsp;&nbsp;<li><a href={item.Instagram} target="_blank" rel="noopener noreferrer" ><i className="fa fa-instagram"></i></a></li>
-                  &nbsp;&nbsp;<li><a href={item.linkedin} target="_blank" rel="noopener noreferrer" ><i className="fa fa-linkedin"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -51,10 +51,10 @@ function Team() {
             <div className="col-sm-6 col-lg-3 my-auto">
               <div className="box shadow-sm p-4">
                 <div className="image-wrapper mb-3">
-                  <img className="img-fluid" src="https://i.postimg.cc/J4JzhPmM/faculty.jpg" alt="..." />
+                  <img className="img-fluid" src="https://i.postimg.cc/2Spszrzn/1517673232209.jpg" alt="..." />
                 </div>
                 <div className="box-desc">
-                  <b><h4>Dr. Pradeep Swarnakar</h4></b>
+                  <b><h4>Munmun Jha</h4></b>
 
 
                   <ul id="ul" className="social">
@@ -67,7 +67,7 @@ function Team() {
           </div>
         </div>
       </div>
-      <Card title="Coordinators" items={data.coordi} /><br></br><br></br><br></br>
+      <Card title="Overall Coordinators" items={data.coordi} /><br></br><br></br><br></br>
       <Card title="Managers" items={data.manager} />
     </>
       );

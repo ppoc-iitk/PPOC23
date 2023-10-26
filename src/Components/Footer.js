@@ -10,12 +10,16 @@ export default function Footer() {
       <br></br>
       <div class="content">
     <div class="col1">
-    <h5>Quick Links</h5>
-    <p>IIT Kanpur <br></br>PPOC<br></br>Policy Conclave</p>
+      <h5>Quick Links</h5>
+      <a href="https://www.iitk.ac.in/">IIT Kanpur</a><br/>
+      <a href="/">PPOC</a><br/>
+      <a href="/">Policy Conclave</a><br/>
     </div>
     <div class="col2">
     <h5>More Links</h5>
-    <p>IIT Kanpur <br></br>PPOC<br></br>Policy Conclave</p>
+    <a href="/blog">Articles</a><br/>
+      <a href="/events">Events</a><br/>
+      <a href="/projects">Projects</a><br/>
     </div>
     <div class="col3">
     <h5>CONTACT US</h5>

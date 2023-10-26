@@ -1,3 +1,11 @@
+.content a{
+    text-decoration: none;
+    color: #878787;
+    font-size: 16px;
+}
+.content a:hover{
+    color: #dcdcdc;
+}
 .footer {
     background-color:rgb(19, 45, 65);
     font-family: merriweather;
@@ -8,11 +16,12 @@
 }
 .col1{
     text-align: justify;
-    margin-left: 190px;
+    margin-left: 180px;
+    width: 110px;
 }
 .col2{
     text-align: justify;
-    margin-left: 20%;
+    margin-left: 16%;
 }
 .col3{
     text-align: justify;
