@@ -21,10 +21,10 @@ export default function () {
             <div class="row blog-content">
                 <div class="col-full blog-content__main">
                     <blockquote>
-                        <p>
+                        <text>
                             Disclaimer: The views and the opinion expressed in this article are those of the author and
                             does not necessarily reflect the views and positions of Public Policy and Opinion Cell IITK.
-                        </p>
+                        </text>
                     </blockquote>
                     <br/>
                     <h2>Major points from the draft</h2>
@@ -78,7 +78,7 @@ majority of votes of the Members present and voting.
                     <p>The provisions of the Bill are being brought into force from the 19th May, 2023 i.e., the date of coming into force of the said Ordinance.</p>
                     <p><strong>Highlights of Draft end here.</strong></p>
 
-                    <h3>Inferences</h3>
+                    <h2>Inferences</h2>
                     <p>Inferences
                         Major points understood by me
                         </p>
