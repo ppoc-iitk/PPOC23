@@ -17,12 +17,13 @@ function Menubar() {
           <Nav className="ms-auto justify-content-center navaa">
         
             <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/policyconclave" target="_blank">Policy Conclave</Nav.Link>
             <Nav.Link href="#about">About Us</Nav.Link>
             <Nav.Link href="/blog">Articles</Nav.Link>
             <Nav.Link href="/projects">Projects</Nav.Link>
             <Nav.Link href="/events">Events</Nav.Link>
             <Nav.Link href="/team">Team</Nav.Link>
-            <Nav.Link href="#gallery">Gallery</Nav.Link>
+            {/* <Nav.Link href="#gallery">Gallery</Nav.Link> */}
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>

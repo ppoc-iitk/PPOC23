@@ -1,0 +1,141 @@
+article {
+  display: block;
+}
+
+.page-header {
+  background-color: #121619;
+  background-image: url(https://preview.colorlib.com/theme/standout/images/xpattern.jpg.pagespeed.ic.dfDe5m83Q2.jpg);
+  background-size: 760px 380px;
+  padding-top: 18rem;
+  padding-bottom: 8rem;
+  text-align: center;
+  position: relative;
+  color: #fff;
+  height: 28rem;
+}
+
+.page-header::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #121619;
+  opacity: 0.8;
+}
+
+.page-header--single {
+  padding-top: 10.8rem;
+  padding-bottom: 7.2rem;
+  background-repeat: no-repeat;
+  background-position: center, center;
+  background-size: cover;
+  min-height: 28rem;
+}
+
+/* .page-header--single .page-header__content {
+    max-width: 900px;
+  }  */
+.page-header h1 {
+  color: #fff;
+}
+.page-header__content {
+  position: relative;
+}
+/* .page-header--single .page-header__content {
+    max-width: 914px;
+    } */
+
+.col-full {
+  width: 100%;
+}
+.display-1 {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 500;
+  font-size: 4rem;
+  line-height: 1.2;
+  letter-spacing: -0.03rem;
+  margin-top: 0;
+  margin-bottom: 0rem;
+}
+.page-header__meta {
+  list-style: none;
+  margin-left: 0;
+  margin-bottom: 1.6rem;
+  padding-top: 1.5rem;
+  font-size: 1.2rem;
+  line-height: 2;
+  color: rgba(255, 255, 255, 0.7);
+  position: relative;
+}
+.blog-content-wrap {
+    padding-top: 1.5rem;
+    padding-bottom: 5rem;
+    background-color: #fff;
+    text-align: left;
+}
+.blog-content {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+.blog-content__main {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 100%;
+}
+blockquote {
+    margin: 2rem 0;
+    padding-left: 4rem;
+    position: relative;
+    margin-bottom: 3.2rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: black;
+}
+blockquote:before {
+    content: "\201C";
+    font-size: 6rem;
+    line-height: 0;
+    margin: 0;
+    color: rgba(0,0,0,.2);
+    font-family: "IBM Plex Serif",serif;
+    position: absolute;
+    top: 2.4rem;
+    left: 10px;
+    box-sizing: inherit;
+}
+
+.blog-content-wrap h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
+.blog-content-wrap p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 2;
+    color: rgba(0,0,0,.7);
+    font-size: 1.1rem;
+}
+.blog-content-wrap blockquote p{
+    font-size: 1.7rem;
+}
+.blog-content-wrap ul{
+    margin: 20px 0;
+    margin-bottom: 3.5rem;
+    color: rgba(0,0,0,.7);
+    font-size: 1rem;
+    line-height: 2;
+}
+.blog-content-wrap ul li {
+    padding-left: 0.4rem;
+}
+.blog-content-wrap ul li a{
+    color: rgb(55, 128, 191);
+}
+.blog-content-wrap ul li a:hover{
+    color: rgb(39, 90, 135);
+}
+
