@@ -35,6 +35,7 @@ import Project1 from "./Components/Projects/Guestimating";
 import Project2 from "./Components/Projects/Inside_Out";
 import Project3 from "./Components/Projects/India_Social";
 import Project4 from "./Components/Projects/Tweet_decoder";
+import Project5 from "./Components/Projects/Diplobrats";
 
 
 function App() {
@@ -93,6 +94,7 @@ function App() {
             <Route path="/inside-out" element={<Project2/>}></Route>
             <Route path="/indias-social" element={<Project3/>}></Route>
             <Route path="/tweet-decoder" element={<Project4/>}></Route>
+            <Route path="/diplobrats" element={<Project5/>}></Route>
           </Routes> 
       </Router>
        

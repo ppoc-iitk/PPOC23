@@ -27,6 +27,13 @@
             "content": "This project was focused on exploring the transformative potential of machine learning within the sphere of public policy. It revolves around the adaptive application of Natural Language Processing (NLP), a tool of artificial intelligence, to discern the polarity of tweets. The core goal of this project is to construct a model with the capability to precisely classify tweets into three distinct categories.",
             "Read more": "/tweet-decoder",
             "image":"https://i.postimg.cc/3R6Qsj19/Tweet-decoder-img.png"
+        },
+        {
+            "id": 5,
+            "name": "Diplobrats",
+            "content": "This project was based upon the theme of understanding International Relations and the history of different nations with respect to our country. It started with a brief study of nations in the context of their trade channels, economy, border management, peace, and harmony. We also dealt with understanding the functioning of organizations like NATO, WHO, SAARC, United Nations, G20, and many more. To come to a conclusion, we created an imaginary real-world scenario for mentees to draft in order to act upon it in an international event and debate about such global issues.",
+            "Read more": "/diplobrats",
+            "image":"https://i.postimg.cc/QMRV52ZM/Whats-App-Image-2023-10-28-at-9-21-40-PM.jpg"
         }
     ]
 }
