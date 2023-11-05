@@ -4,7 +4,7 @@ export default function () {
   return (
     <article class="blog-single">
         {/* <!--Hero Section starts--> */}
-        <div class="page-header page-header--single">
+        <div class="page-header page-header--single" style={{"background-image": "url(https://i.postimg.cc/Jh8TY7rK/Whats-App-Image-2023-08-10-at-10-05-01-PM.jpg)"}}>
             <div class="row page-header__content">
                 <div class="col-full">
                     <h1 class="display-1">
