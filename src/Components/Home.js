@@ -8,6 +8,7 @@ import Teamsection from './teamsection'
 import Gallery from '../Components/Gal'
 import AOS from "aos";
 import 'aos/dist/aos.css'
+import Speakers from '../Components/Speakers';
 import { useEffect} from "react";
 export default function Home() {
   useEffect(()=>{
@@ -43,6 +44,12 @@ export default function Home() {
         <h1 className='recent-title'>Recent Activities</h1>
         <div className='slider'>
           <ImageSlider />
+        </div>
+      </div>
+      <div className='recent-activities' id="speakers">
+        <h1 className='recent-title'>Our Past Speakers</h1><br></br>
+        <div className='sliders'>
+          <Speakers />
         </div>
       </div>
 

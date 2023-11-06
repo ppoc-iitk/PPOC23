@@ -36,7 +36,7 @@ Kanpur, Uttar Pradesh, 208016<br></br>Email: ppoc@iitk.ac.in</p>
     </div>
   <img className="lines" src="/Line 18.svg"/>
     <p
-    className='p'>Copyright © 2022-23 PPOC, IIT Kanpur | Designed by Web Team</p>
+    className='p'>Copyright © 2023-24 PPOC, IIT Kanpur | Designed by Web Team</p>
   </div>
     </div>
   )

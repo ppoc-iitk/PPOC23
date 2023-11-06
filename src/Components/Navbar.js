@@ -18,7 +18,7 @@ function Menubar() {
         
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/policyconclave" target="_blank">Policy Conclave</Nav.Link>
-            <Nav.Link href="#about">About Us</Nav.Link>
+            <Nav.Link href="/#speakers">Speakers</Nav.Link>
             <Nav.Link href="/blog">Articles</Nav.Link>
             <Nav.Link href="/projects">Projects</Nav.Link>
             <Nav.Link href="/events">Events</Nav.Link>

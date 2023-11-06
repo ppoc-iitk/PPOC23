@@ -5,24 +5,19 @@ function Lightbox() {
 
   return (
 <div className="grid-gallery">
-<div className="grid-item">
-    <a href="Gallery/img12.jpeg" target="_blank" data-lightbox="gridImage">
-      <img src="Gallery/img12.jpeg"loading="lazy" alt='gallery-img'/>
+  <div className="grid-item">
+    <a href="Gallery/img1.jpg" target="_blank" data-lightbox="gridImage">
+      <img src="Gallery/img1.jpg" loading="lazy" alt='gallery-img'/>
     </a>
   </div>
   <div className="grid-item">
-    <a href="Gallery/img1.png" target="_blank" data-lightbox="gridImage">
-      <img src="Gallery/img1.png" loading="lazy" alt='gallery-img'/>
+    <a href="Gallery/img2.jpg" target="_blank" data-lightbox="gridImage">
+      <img src="Gallery/img2.jpg" loading="lazy" alt='gallery-img'/>
     </a>
   </div>
   <div className="grid-item">
-    <a href="Gallery/img2.png" target="_blank" data-lightbox="gridImage">
-      <img src="Gallery/img2.png" loading="lazy" alt='gallery-img'/>
-    </a>
-  </div>
-  <div className="grid-item">
-    <a href="Gallery/img3.jpeg" target="_blank" data-lightbox="gridImage">
-      <img src="Gallery/img3.jpeg" loading="lazy" alt='gallery-img'/>
+    <a href="Gallery/img3.jpg" target="_blank" data-lightbox="gridImage">
+      <img src="Gallery/img3.jpg" loading="lazy" alt='gallery-img'/>
     </a>
   </div>
   <div className="grid-item">
@@ -40,7 +35,7 @@ function Lightbox() {
       <img src="Gallery/img6.jpg" loading="lazy" alt='gallery-img'/>
     </a>
   </div>
-  <div className="grid-item">
+  {/* <div className="grid-item">
     <a href="Gallery/img7.jpg" target="_blank" data-lightbox="gridImage">
       <img src="Gallery/img7.jpg" loading="lazy" alt='gallery-img'/>
     </a>
@@ -95,7 +90,7 @@ function Lightbox() {
     <a href="Gallery/img18.jpeg" target="_blank" data-lightbox="gridImage">
       <img src="Gallery/img18.jpeg"loading="lazy" alt='gallery-img'/>
     </a>
-  </div>
+  </div> */}
   
 </div>
 

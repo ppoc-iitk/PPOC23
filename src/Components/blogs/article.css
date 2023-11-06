@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 blockquote {
     margin: 32px 0 32px 0;
     padding-left: 4.8rem;
@@ -19,7 +19,8 @@ blockquote {
 blockquote:before {
     content: "\201C";
     font-size: 10rem;
-=======
+}
+
 article {
   display: block;
 }
@@ -54,7 +55,7 @@ article {
   background-repeat: no-repeat;
   background-position: center, center;
   background-size: cover;
-  min-height: 28rem;
+  min-height: 30rem;
 }
 
 /* .page-header--single .page-header__content {
@@ -65,6 +66,7 @@ article {
 }
 .page-header__content {
   position: relative;
+  margin: 36px 0;
 }
 /* .page-header--single .page-header__content {
     max-width: 914px;
@@ -119,14 +121,12 @@ blockquote {
 blockquote:before {
     content: "\201C";
     font-size: 6rem;
->>>>>>> d6e601e6c6526223d5cdacd6976207ee95ccbd60
     line-height: 0;
     margin: 0;
     color: rgba(0,0,0,.2);
     font-family: "IBM Plex Serif",serif;
     position: absolute;
-<<<<<<< HEAD
-    top: 4.4rem;
+    top: 2.4rem;
     left: -6px;
 }
 .blog-content-wrap {
@@ -134,12 +134,12 @@ blockquote:before {
     padding-bottom: 1rem;
     background-color: #fff;
 }
-.row{
-    margin: 106px;
-}
+/* .row{
+    margin: 36px;
+} */
 .blog-content__main{
     text-align: left;
-    padding: 48px;
+    padding: 35px;
 }
 .blog-content__main p{
     font-family: "IBM Plex Sans",sans-serif;
@@ -172,8 +172,6 @@ blockquote:before {
     display: block;
     /* transform: none;
     transition: all 0s ease 0s; */
-}
-=======
     top: 2.4rem;
     left: 10px;
     box-sizing: inherit;
@@ -181,7 +179,7 @@ blockquote:before {
 
 .blog-content-wrap h2{
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     font-size: 2.5rem;
 }
 .blog-content-wrap p{
@@ -211,4 +209,21 @@ blockquote:before {
     color: rgb(39, 90, 135);
 }
 
->>>>>>> d6e601e6c6526223d5cdacd6976207ee95ccbd60
+@media (max-width:565px){
+    .blog-content__main img{
+        height: 260px;
+    }
+    .page-header--single{
+        height: 36rem;
+    }
+    .display-1 {
+        font-size: 3.5rem;
+    }
+    .blog-content-wrap blockquote p {
+        font-size: 1.3rem;
+    }
+    .blog-content-wrap h2 {
+        font-size: 2.2rem;
+    }
+}
+
