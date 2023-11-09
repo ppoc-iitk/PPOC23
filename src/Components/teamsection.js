@@ -44,7 +44,8 @@ export default function teamsection() {
             </div>
         </div>
     </div>
-    <a href="/team" class="blog-btn">View Full Team</a>
+    <a href="/team" class="blog-btn">View Full Team</a> <br/>
+    <a href="/pastteam" class="blog-btn">View Past Team</a>
     </>
   )
 }
