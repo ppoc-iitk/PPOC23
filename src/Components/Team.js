@@ -40,6 +40,10 @@ function Team() {
           <p className="card-text">
             You can access information about the current members of the Public Policy and Opinion Cell team through the below links. From these links, you can find contact information for each team member, allowing you to reach out to the appropriate person based on your needs. This information can be helpful in connecting with the Public Policy and Opinion Cell team and accessing their resources and support.
           </p>
+          <div className='team-btn-dis'>
+          <a href="/team" class="team-btn">View Present Team</a> <br/>
+          <a href="/pastteam" class="team-btn">View Past Team</a>
+          </div>
         </div>
       </div>
 <br></br>
@@ -67,8 +71,9 @@ function Team() {
           </div>
         </div>
       </div>
+      <br></br><br></br><br></br>
       <Card title="Overall Coordinators" items={data.coordi} /><br></br><br></br><br></br>
-      <Card title="Managers" items={data.manager} />
+      <Card title="Managers" items={data.manager} /><br></br><br></br><br></br>
     </>
       );
 }

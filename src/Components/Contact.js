@@ -30,17 +30,17 @@ export default function Contact() {
     <div class="col">
     <div class="card">
       <div class="card-body">
-      <form>
+      <form action="https://formsubmit.co/ppoc.iitk@gmail.com" method="POST">
     <div class="col">
-    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Your Name"></input>
+    <input type="text" name="name" class="form-control" id="exampleFormControlInput1" placeholder="Your Name" required></input>
     </div>
     <hr></hr>
     <div class="col">
-  <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Your Email Address "></input>
+  <input type="email" name="email" class="form-control" id="exampleFormControlInput2" placeholder="Your Email Address " required></input>
   <hr></hr>
   <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Enter Your Message Here..."></textarea>
   <hr></hr>
-  <button className="button">
+  <button className="button" type="submit">
         <h4>Send Message</h4>
       </button>
 </div>
