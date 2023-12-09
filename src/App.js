@@ -32,6 +32,7 @@ import Blog17 from "./Components/blogs/Fist_Program";
 import Blog18 from "./Components/blogs/Recent_Development";
 import Blog19 from "./Components/blogs/UP_Population";
 import Blog20 from "./Components/blogs/Privatisation";
+import Blog21 from "./Components/blogs/Navigating-economic-storm";
 import Project1 from "./Components/Projects/Guestimating";
 import Project2 from "./Components/Projects/Inside_Out";
 import Project3 from "./Components/Projects/India_Social";
@@ -92,6 +93,7 @@ function App() {
             <Route path="/Recent-development-in-Afghanisthan-crisis" element={<Blog18/>}></Route>
             <Route path="/UP-population-bill-2021" element={<Blog19/>}></Route>
             <Route path="/Privatisation-and-its-impact-on-economy" element={<Blog20/>}></Route>
+            <Route path="/Navigating-economic-storm" element={<Blog21/>}></Route>
             <Route path="/Guesstimating" element={<Project1/>}></Route>
             <Route path="/inside-out" element={<Project2/>}></Route>
             <Route path="/indias-social" element={<Project3/>}></Route>

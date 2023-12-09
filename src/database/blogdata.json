@@ -1,6 +1,13 @@
 {
     "blogs": [
         {
+            "id": 21,
+            "name": "Navigating the Global Economic Storm: India's Resilience Amidst Recessionary Fears",
+            "content": "The global economy is teetering on the brink of a recession, with significant players like the United States, the Eurozone, and China facing economic headwinds. While the specter of...", 
+            "Read more": "/Navigating-economic-storm",
+            "image":"https://i.postimg.cc/QtzgxKjJ/Add-a-heading-1.png"
+        },
+        {
             "id": 1,
             "name": "Delhi Ordinance Bill",
             "content": "There shall be an Authority to be known as the National Capital Civil Service Authority to exercise the powers conferred on, and discharge the functions assigned to it under this Part ....",
@@ -141,6 +148,7 @@
                     "Read more": "/Privatisation-and-its-impact-on-economy",
                     "image":"https://i.postimg.cc/BQcP1VSL/269676345-401038405137928-1752413456528977206-n.jpg"
                 }
+                
         
     ]
 }
