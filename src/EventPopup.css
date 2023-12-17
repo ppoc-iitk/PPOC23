@@ -1,0 +1,156 @@
+/* .event-popup-content {
+    background-image: url('../public/conclave.jpg');
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+  } */
+  /* EventPopup.css */
+
+/* EventPopup.css */
+
+/* Style for the entire modal content */
+/* .event-popup-content {
+    display: flex;
+  }
+  
+  /* Style for the left section (image background) */
+  /* .event-popup-content > div:first-child {
+    flex: 5;
+    padding-right: 20px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../public/conclave.jpg'); /* Adjust the path to your image */
+  
+  
+  /* Style for the right section (text content) */
+  /*.event-popup-content > div:last-child {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #274561;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1a2b3c;
+  }
+   */ 
+
+  /* EventPopup.css */
+
+.event-popup-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 80%;   
+    height: 60%;      
+  }
+  
+  .event-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+  }
+  .event-popup-content {
+    display: flex;
+  }
+  
+  .left-section {
+    flex: 20;
+    padding-right: 20px;
+    background-size: cover;
+    background-position: center;
+    /* background-image: url('../public/conclave.jpg'); */
+    width: 20%;
+    /* Adjust other styles as needed */
+  }
+  .popup-image {
+    max-width: 100%; /* Set the maximum width to 100% of the container */
+    max-height: 100%;
+    height: auto;    /* Allow the height to adjust proportionally */
+    display: block;  /* Remove any default inline styling on the image */
+    margin: 0 auto;  /* Center the image within its container */
+  }
+  .right-section {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    /* Adjust other styles as needed */
+  }
+  
+  /* Add more styling as needed */
+  h2 {
+    padding-top: 100px;
+    padding-left: 20px;
+    font-size: 48px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #274561;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1a2b3c;
+  }
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #999;
+  }
+  
+  .close-button span {
+    display: block;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .right-section a h2 {
+    color: black; /* Set the default color */
+    text-decoration: none; /* Remove the underline */
+  }
+  
+  .right-section a:hover h2 {
+    text-shadow: #1a2b3c;
+    text-decoration-line: underline;/* Set the color on hover */
+  }
