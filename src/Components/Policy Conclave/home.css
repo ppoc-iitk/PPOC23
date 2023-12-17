@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Macondo+Swash+Caps&display=swap');
+
+
+.home {
+    overflow: hidden;
+  }
+  
+  .background-image {
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    background-size: cover;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    color: white; /* Set the text color to contrast with the background */
+    position: relative;
+  }
+  
+  /* Add styles for the second section as needed */
+  .background-image:nth-child(2) {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  .vertical-align-container {
+    font-family: 'Macondo Swash Caps', cursive;
+    font-family: 'Macondo', cursive;
+    font-size: 3.5rem;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .left-aligned,
+  .right-aligned {
+    width: 50%;
+    text-align: center;
+  }
+  
+  .right-aligned {
+    text-align: right;
+    padding-right: 4rem;
+}
+.left-aligned{
+    padding-left: 4rem;
+    text-align: left;
+}
+  

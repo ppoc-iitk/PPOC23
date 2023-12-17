@@ -33,16 +33,6 @@
 
     },
     {
-        "id":2,
-        "name":"Shreyansh Kesharwani ",
-        "email":"mailto:shreyanshk21@iitk.ac.in",
-        "vertical":"Finance and Marketing",
-        "linkedin":"https://www.linkedin.com/in/shreyansh-kesharwani-6613311a6",
-        "image":"https://i.postimg.cc/9X9D4Wt6/Shreyansh-Kesherwani.jpg",
-        "facebook":"",
-        "Instagram":""
-    },
-    {
         "id":3,
         "name":"Ajay chouhan ",
         "email":"mailto:ajaych21@iitk.ac.in",
@@ -116,3 +106,5 @@
     }
 ]
 }
+
+

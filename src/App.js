@@ -42,6 +42,7 @@ import Project5 from "./Components/Projects/Diplobrats";
 
 function App() {
   const[loading,setLoading]=useState(false);
+  const [showNavbarAndFooter, setShowNavbarAndFooter] = useState(true);
   useEffect(()=>{
     setLoading(true)
     setTimeout(()=>{
@@ -62,8 +63,8 @@ function App() {
       /></center>
         :
         <><Router>
-
-        <Navbar/>
+          {showNavbarAndFooter && <Navbar />}
+        {/* <Navbar/> */}
           <Routes>
             <Route path="/" element={<Home/>}></Route>
             <Route path="/blog" element={<Blog/>}></Route>
@@ -72,7 +73,10 @@ function App() {
             <Route path="/pastteam" element={<Pastteam/>}></Route>
             <Route path="/projects" element={<Projects/>}></Route>
             <Route path="/contact" element={<Contact/>}></Route>
-            <Route path="/policyconclave" element={<Conclave/>}></Route>
+            <Route
+                path="/policyconclave"
+                element={<Conclave setShowNavbarAndFooter={setShowNavbarAndFooter} />}
+              ></Route>
             <Route path="/delhi_ordinance_bill" element={<Blog1/>}></Route>
             <Route path="/sedition_law_in_india" element={<Blog2/>}></Route>
             <Route path="/hindberg_report" element={<Blog3/>}></Route>
@@ -103,8 +107,9 @@ function App() {
       </Router>
        
        
-
-    <Footer/></>
+      {showNavbarAndFooter && <Footer />}
+    {/* <Footer/> */}
+    </>
     }
   </div>
   );
