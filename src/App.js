@@ -11,6 +11,7 @@ import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 import Conclave from './Components/PolicyConclave';
+import EventPopup from './EventPopup';
 import HashLoader from "react-spinners/HashLoader";
 import Blog1 from "./Components/blogs/Delhi_Ordinance_bill";
 import Blog2 from "./Components/blogs/Sedition_law_in_India";
@@ -42,13 +43,28 @@ import Project5 from "./Components/Projects/Diplobrats";
 
 function App() {
   const[loading,setLoading]=useState(false);
-  useEffect(()=>{
+  const [showEventPopup, setShowEventPopup] = useState(false);
+  // useEffect(()=>{
+  //   setLoading(true)
+  //   setTimeout(()=>{
+  //     setLoading(false)
+  //   },2000)
+  // },[])
+  useEffect(() => {
     setLoading(true)
-    setTimeout(()=>{
+    setTimeout(() => {
       setLoading(false)
-    },2000)
-  },[])
-
+      setShowEventPopup(true) // Display the event popup
+  
+      // Close the event popup after a certain duration (e.g., 5000 milliseconds)
+      setTimeout(() => {
+        setShowEventPopup(false)
+      }, 10000)
+    }, 2000)
+  }, [])
+  const closeEventPopup = () => {
+    setShowEventPopup(false);
+  };
   return (
     <div className="App">
       {
@@ -61,7 +77,10 @@ function App() {
         data-testid="loader"
       /></center>
         :
-        <><Router>
+    
+        <>
+        {showEventPopup && <EventPopup onClose={closeEventPopup} />}
+        <Router>
 
         <Navbar/>
           <Routes>
