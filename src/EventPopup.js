@@ -71,14 +71,18 @@ const EventPopup = ({ onClose }) => {
       <div className="close-button" onClick={onClose}>
           <span>&times;</span>
         </div>
-        <div className="left-section"><img className="popup-image" src='/conclave.jpg'></img></div>
-        <div className="right-section">
+        {/* <div className="left-section">
+          <img className="popup-image" src='/conclave.jpg'></img>
+          </div>
+        <div className="right-section"> */}
+        <div className='text-content'>
         <a href="/policyconclave" target="_blank" rel="noopener noreferrer">
-            <h2>POLICY CONCLAVE</h2>
+            <h2>POLICY <br/>CONCLAVE</h2>
           </a>
+          </div>
           {/* <p>Join us for our exciting new event.</p> */}
           {/* <button onClick={onClose}>Close</button> */}
-        </div>
+        {/* </div> */}
       </div>
     </Modal>
   );

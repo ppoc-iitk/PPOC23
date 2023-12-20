@@ -61,11 +61,14 @@
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
-    background: white;
-    border: 1px solid #ccc;
-    padding: 20px;
+    /* background: white;
+    border: 1px solid #ccc; */
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    /* padding: 10px; */
     width: 80%;   
-    height: 60%;      
+    height: 90%;      
   }
   
   .event-popup-overlay {
@@ -78,44 +81,58 @@
     z-index: 1000;
   }
   .event-popup-content {
+    /* position: relative; */
+    flex: 5;
     display: flex;
+    background-image: url(../public/try3.png);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
   }
-  
+  .text-content {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: none;
+    justify-content: center;
+    align-items: center;
+  }
+/*   
   .left-section {
     flex: 20;
     padding-right: 20px;
     background-size: cover;
     background-position: center;
-    /* background-image: url('../public/conclave.jpg'); */
     width: 20%;
-    /* Adjust other styles as needed */
   }
   .popup-image {
-    max-width: 100%; /* Set the maximum width to 100% of the container */
-    max-height: 100%;
-    height: auto;    /* Allow the height to adjust proportionally */
-    display: block;  /* Remove any default inline styling on the image */
-    margin: 0 auto;  /* Center the image within its container */
+    max-width: 65%; 
+    max-height: 65%;
+    height: auto;  
+    display: block;  
+    margin: 0 auto;  
   }
   .right-section {
     flex: 3;
     display: flex;
     flex-direction: column;
-    /* Adjust other styles as needed */
-  }
+  } */
   
-  /* Add more styling as needed */
-  h2 {
+  /* h2 {
     padding-top: 100px;
     padding-left: 20px;
     font-size: 48px;
     margin-bottom: 10px;
     text-align: center;
+  } */
+  h2{
+    font-family: Aprila;
+    color: #341e0b;
   }
-  
   p {
     font-size: 16px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   
   button {
@@ -145,12 +162,12 @@
     line-height: 24px;
     text-align: center;
   }
-  .right-section a h2 {
+  .a h2 {
     color: black; /* Set the default color */
     text-decoration: none; /* Remove the underline */
   }
   
-  .right-section a:hover h2 {
+  .a:hover h2 {
     text-shadow: #1a2b3c;
     text-decoration-line: underline;/* Set the color on hover */
   }
