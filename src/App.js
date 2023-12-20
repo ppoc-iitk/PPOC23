@@ -59,7 +59,7 @@ function App() {
       // Close the event popup after a certain duration (e.g., 5000 milliseconds)
       setTimeout(() => {
         setShowEventPopup(false)
-      }, 10000)
+      }, 100000)
     }, 2000)
   }, [])
   const closeEventPopup = () => {
