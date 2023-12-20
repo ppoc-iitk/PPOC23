@@ -1,32 +1,66 @@
+// import React, { useState,useEffect } from 'react';
+// import './PolicyConclave.css';
+// import './Policy Conclave/section.css';
+// import Home from './Policy Conclave/Home';
+// import Section1 from './Policy Conclave/Section1';
+// import Section2 from './Policy Conclave/Section2';
+// import Section3 from './Policy Conclave/WhatWedo';
+
+// export default function PolicyConclave({ setShowNavbarAndFooter }) {
+//   const [activeSection, setActiveSection] = useState(0);
+
+//   useEffect(() => {
+//     setShowNavbarAndFooter(false);
+//     return () => {
+//       setShowNavbarAndFooter(true);
+//     };
+//   }, [setShowNavbarAndFooter]);
+
+//   const sections = [<Home />, <Section1 />, <Section2 />, <Section3 />];
+
+//   const handleSectionChange = () => {
+//     setActiveSection((prev) => (prev === sections.length - 1 ? 0 : prev + 1));
+//   };
+
+//   return (
+//     <div className="book-container" onClick={handleSectionChange}>
+//       {sections.map((section, index) => (
+//         <div
+//           key={index}
+//           className={`section ${activeSection === index ? 'section-visible' : 'section-hidden'}`}
+//         >
+//           {section}
+//         </div>
+//       ))}
+//     </div>
+//   );
+// }
+
 import React, { useEffect } from 'react';
-import Section2 from './Policy Conclave/Section2';
-import './PolicyConclave.css'
-import './Policy Conclave/section.css'
+import './PolicyConclave.css';
+import './Policy Conclave/section.css';
 import Home from './Policy Conclave/Home';
+import Section2 from './Policy Conclave/Section2';
+import Section3 from './Policy Conclave/WhatWedo';
+import Event from './Policy Conclave/event'
+import Workshop from './Policy Conclave/Workshop'
 
 export default function PolicyConclave({ setShowNavbarAndFooter }) {
   useEffect(() => {
-    setShowNavbarAndFooter(false); // Hide Navbar and Footer
+    setShowNavbarAndFooter(false);
     return () => {
-      setShowNavbarAndFooter(true); // Show Navbar and Footer when leaving this component
+      setShowNavbarAndFooter(true);
     };
   }, [setShowNavbarAndFooter]);
 
   return (
     <>
-      {/* <div class="policy-wrapper">
-        <h1>coming soon<span class="dot">.</span></h1>
-        <p>Policy Conclave.</p>
-        <div class="icons">
-          <a href="https://www.facebook.com/ppoc.iitk"><i class="fa fa-facebook"></i></a>
-          <a href="https://www.linkedin.com/company/ppoc-iitk/mycompany/"><i class="fa fa-linkedin"></i></a>
-          <a href="https://www.youtube.com/channel/UCL6N8QXTgLIdj2SzxYhHrag"><i class="fa fa-youtube-play"></i></a>
-          <a href="https://www.instagram.com/ppoc_iitk/"><i class="fa fa-instagram"></i></a>
-        </div>
-      </div> */}
       <Home/>
       <Section2/>
+      <Section3/>
+      <Event/>
+      <Workshop/>
+
     </>
-    
-  )
+  );
 }

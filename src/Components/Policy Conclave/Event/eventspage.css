@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Macondo+Swash+Caps&display=swap');
+
+.pevent {
+
+
+background-size: 100% 100%; 
+background-repeat:no-repeat ;
+}
+  
+.pevent .background-image1{
+
+height: 100vh;
+width: 100vw;
+position: relative;
+}
+
+.p-container {
+    /* transform: translateY(50%); */
+    max-width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.flexbox2{
+    transform: translateY(20%);
+}
+
+.content {
+    flex: 1;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.p-container h1 {
+    color: #333;
+    font-size: xxx-large;
+    font-family: 'Macondo', cursive;
+}
+
+.p-container p {
+    margin: 1rem;
+    color: #666;
+    font-weight: 800;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.p-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border: 2px solid;
+    border-radius: 50px;
+}
+
+.register-button {
+    display: block;
+    width: 250px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}

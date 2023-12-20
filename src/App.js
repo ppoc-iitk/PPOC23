@@ -39,6 +39,11 @@ import Project2 from "./Components/Projects/Inside_Out";
 import Project3 from "./Components/Projects/India_Social";
 import Project4 from "./Components/Projects/Tweet_decoder";
 import Project5 from "./Components/Projects/Diplobrats";
+import Event1 from "./Components/Policy Conclave/Event/rajneeti"
+import Event2 from "./Components/Policy Conclave/Event/Lokniti"
+import Event3 from "./Components/Policy Conclave/Event/mun"
+import Event4 from "./Components/Policy Conclave/Event/bookfair"
+import Event5 from "./Components/Policy Conclave/Event/videshneeti"
 
 
 function App() {
@@ -115,6 +120,11 @@ function App() {
             <Route path="/indias-social" element={<Project3/>}></Route>
             <Route path="/tweet-decoder" element={<Project4/>}></Route>
             <Route path="/diplobrats" element={<Project5/>}></Route>
+            <Route path="/policyconclave/rajneeti" element={<Event1/>}></Route>
+            <Route path="/policyconclave/lokneeti" element={<Event2/>}></Route>
+            <Route path="/policyconclave/mun" element={<Event3/>}></Route>
+            <Route path="/policyconclave/bookfair" element={<Event4/>}></Route>
+            <Route path="/policyconclave/videshneeti" element={<Event5/>}></Route>
           </Routes> 
       </Router>
        

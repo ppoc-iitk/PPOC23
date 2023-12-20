@@ -105,7 +105,7 @@
   }
   
   /* Add more styling as needed */
-  h2 {
+  .right-section h2 {
     padding-top: 100px;
     padding-left: 20px;
     font-size: 48px;
@@ -113,12 +113,7 @@
     text-align: center;
   }
   
-  p {
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-  
-  button {
+  /* button {
     background-color: #274561;
     color: white;
     padding: 10px 20px;
@@ -128,7 +123,7 @@
   
   button:hover {
     background-color: #1a2b3c;
-  }
+  } */
   .close-button {
     position: absolute;
     top: 10px;

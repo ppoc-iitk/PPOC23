@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Macondo+Swash+Caps&display=swap');
+
+.pevent {
+
+background-image: url('https://i.postimg.cc/jSdrmZx3/page.jpg');
+background-size: 100% 100%; 
+background-repeat:no-repeat ;
+}
+  
+.pevent .background-image1{
+
+height: 100vh;
+width: 100vw;
+position: relative;
+}
+
+.flexbox1{
+    margin-left: 15%;
+    margin-right: auto;
+    transform: translate(0%,15%);
+}
+.flexbox1 .flex-card-list {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+
+}
+.flexbox1 .flex-card-listitem {
+  display:flex;
+  flex-direction: row;
+  background-color: #fff;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.flexbox1 .flex-card {
+  display:flex;
+  flex-direction:row;
+}
+.flex-card-list1 li {
+  width:80%;
+  height:35vh;
+  margin-left: 0.5em;
+    margin-bottom: 1em;
+}
+.flexbox1 .flex-card-content {
+  display:flex;
+  flex:1 0 auto; 
+  flex-direction:column;
+  width:50%;
+  overflow: scroll;
+}
+
+.flexbox1 .flex-card-content p {
+    flex:1 0 auto;
+    font-size:medium;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+.flex-card-image1{
+    width:50%;
+}
+.flex-card-image1 img{
+    width:90%;
+    height:100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ 
