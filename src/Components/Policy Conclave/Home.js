@@ -6,9 +6,9 @@ import './home.css';
 // import './page1.css';
 const Home = () => {
   return (
-  <> <div className="home">
+  <> <div className="home" id="home">
        
-        <div className="background-image" style={{ backgroundImage: `url('https://i.postimg.cc/26kHfTKy/MainBG.jpg')` }}>
+        <div className="background-image">
         <Navbar />
        
       </div>

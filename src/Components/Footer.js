@@ -4,8 +4,8 @@ export default function Footer() {
   return (
     <div className="footer">
        <img className="lines" src="/Line 18.svg"/>
-      <h5>Public Policy and Opinion Cell</h5>
-      <img className="title" src="/block.png"/>
+      {/* <h3>Public Policy and Opinion Cell</h3> */}
+      <img className="title" src="/footer logo.png"/>
       <br></br>
       <br></br>
       <div class="content">

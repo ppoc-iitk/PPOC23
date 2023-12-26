@@ -1,70 +1,140 @@
 @import url('https://fonts.googleapis.com/css2?family=Macondo&family=Macondo+Swash+Caps&display=swap');
-
 .pevent {
-
 background-image: url('https://i.postimg.cc/jSdrmZx3/page.jpg');
 background-size: 100% 100%; 
 background-repeat:no-repeat ;
 }
-  
-.pevent .background-image1{
-
-height: 100vh;
-width: 100vw;
-position: relative;
-}
 
 .flexbox1{
-    margin-left: 15%;
-    margin-right: auto;
-    transform: translate(0%,15%);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: auto;
+  margin-top: 8.5em;
 }
-.flexbox1 .flex-card-list {
-  display:flex;
-  flex-wrap:wrap;
-  justify-content: center;
+.p-box {
+  margin-bottom: 3em;
+}
 
+.p-box .overlap {
+  background-image: url("https://i.postimg.cc/FFq4SDx5/Rectangle-5.png");
+  background-size: 100% 100%;
+  height: 214px;
+  position: relative;
+  width: 500px;
 }
-.flexbox1 .flex-card-listitem {
-  display:flex;
-  flex-direction: row;
-  background-color: #fff;
-  padding: 1em;
+
+.p-box .read-button {
+  all: unset;
+  box-sizing: border-box;
+  height: 36px;
+  left: 281px;
+  position: absolute;
+  top: 124px;
+  width: 125px;
+}
+
+.p-box .overlap-group {
+  background-color: #ffffff;
   border-radius: 10px;
+  height: 36px;
+  position: relative;
+  width: 123px;
 }
 
-.flexbox1 .flex-card {
-  display:flex;
-  flex-direction:row;
-}
-.flex-card-list1 li {
-  width:80%;
-  height:35vh;
-  margin-left: 0.5em;
-    margin-bottom: 1em;
-}
-.flexbox1 .flex-card-content {
-  display:flex;
-  flex:1 0 auto; 
-  flex-direction:column;
-  width:50%;
-  overflow: scroll;
+.p-box .text-wrapper {
+  color: #492405;
+  font-family: "Macondo", cursive;
+  font-size: 22.3px;
+  font-weight: 400;
+  left: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 5px;
+  white-space: nowrap;
 }
 
-.flexbox1 .flex-card-content p {
-    flex:1 0 auto;
-    font-size:medium;
+.p-box .div {
+  color: #ffffff;;
+  border-bottom-style: solid;
+  font-family: "Macondo",cursive;
+  border-bottom-width: 3px;
+  font-size: 21px;
+  font-weight: 400;
+  left: 240px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 69px;
+}
+
+.p-box .image-sed-law {
+  height: 214px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 214px;
+}
+
+
+/* Media query for screens with a maximum width of 767 pixels (mobile) */
+@media only screen and (max-width: 767px) {
+  .flexbox1{
+    flex-direction: column;
+  }
+  .p-box .image-sed-law {
+    height: 200px;
+    width: 180px;
+  }
+  .p-box .overlap {
+    height: 200px;
+    width: 372px;
+  }
+  .p-box .read-button {
+    left: 200px;
+  }
+  .p-box .div {
+    font-size: 24px;
     font-weight: 500;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    left: 184px;
+  }
+  .flex1-card-image{
+    width: 100%;
+  }
+  .flex1-card-heading{
+    margin-top: 5px;
+    font-size: x-large;
   }
 
-.flex-card-image1{
-    width:50%;
+  .text-wrapper {
+    color: #492405;
+    font-family: "Macondo", cursive;
+    font-size: medium;
+    font-weight: 400;
+    left: 9px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 3px;
+    white-space: nowrap;
+  }
+  .overlap-group {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 25px;
+    position: relative;
+    width: 90px;
+  }
+  .read-button {
+    all: unset;
+    box-sizing: border-box;
+    height: 25px;  
+    width: 90px;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 8%;
+    cursor: pointer;
+  }
 }
-.flex-card-image1 img{
-    width:90%;
-    height:100%;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
- 

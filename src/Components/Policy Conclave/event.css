@@ -10,19 +10,11 @@ background-repeat:no-repeat ;
 .pevent .background-image1{
 
 height: 100vh;
-width: 100vw;
 position: relative;
+padding: 48px 0;
 }
 .flexbox{
-    transform: translate(-4% ,12%);
-}
-.pevent .h1 {
-    color: #333;
-    font-size: xxx-large;
-    font-family: 'Macondo', cursive;
-    transform: translateY(120%);
-    margin-bottom: 0px;
-    text-decoration: underline;
+    transform: translate(-5% ,1%);
 }
 
 .pevent .flexbox ul
@@ -104,3 +96,23 @@ position: relative;
   color:#202124;
   font-weight: bold;
 }   
+
+
+/* Media query for screens with a maximum width of 767 pixels (mobile) */
+@media only screen and (max-width: 767px) {
+  .flexbox{
+    transform: translate(-7% ,1%);
+  }
+  .flex-card-list li {
+    width: 32%;
+    margin-left: 4em;
+    margin-top: 2em;
+  }
+  .flex-card-heading{
+    font-size: 22px;
+}
+.flex-card-button {
+  padding: 7px 5px;
+    font-size: 15px;
+}
+}

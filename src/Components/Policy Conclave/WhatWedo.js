@@ -2,14 +2,15 @@ import React from 'react'
 
 export default function WhatWedo() {
   return (
-    <div className='psection' id="about">
-        <img className="pimg" src="Conclavebg.png" alt="Conclave Background" />
-        <div className="text-overlay">
-            <h1 className='phead'>What we do?</h1>
+    <div className='psection pevent' id="about">
+        <div className="background-image1">
+        <center>
+            <h1 className="phead">What We do ? </h1>
+          </center>
             <div className="punder"></div>
             <div className="pwhat">
                 <div className="whatcard">
-                    <img src="Gallery/img3.jpeg" alt="" />
+                    <img src="Gallery/img1.jpeg" alt="" />
                     <div className="ptext">
                         <h3>Talks</h3>
                         <p>
@@ -19,7 +20,7 @@ export default function WhatWedo() {
                     </div>    
                 </div>
                 <div className="whatcard">
-                    <img src="Gallery/img1.jpeg" alt="" />
+                    <img src="Gallery/img3.jpeg" alt="" />
                     <div className="ptext">
                         <h3>Pannel Discussions</h3>
                         <p>

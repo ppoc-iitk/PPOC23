@@ -16,7 +16,7 @@ const Navbar = () => {
             <div className="logo"><img src="https://i.postimg.cc/gcCFhZKw/logo-2.png"/></div>
             <ul>
                 <li>
-                    <a className="active" href="/">
+                    <a className="active" href="#home">
                     Home
                     </a>
                 </li>
@@ -27,10 +27,10 @@ const Navbar = () => {
                     <a href="#pevents">Events</a>
                 </li>
                 <li>
-                    <a href="#">Workshops</a>
+                    <a href="#workshop">Workshops</a>
                 </li>
                 <li>
-                    <a href="#">Past Speakers</a>
+                    <a href="#pastspeaker">Past Speakers</a>
                 </li>
             </ul>
         </div>

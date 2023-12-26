@@ -7,38 +7,15 @@
 
 .phead{
     font-family: 'Macondo Swash Caps', cursive;
-    font-size: 2.1em;
+    font-size: 2.2em;
+    margin-top: 10px;
+    text-decoration: underline;
 }
 .psection {
     position: relative;
     width: 100%;
 }
-
-.punder{
-  width: 50%;
-  height: 2px;
-  background-color: black;
-  margin-left: 345px;
-}
   
-  .text-overlay {
-    position: absolute;
-    /* top: 45%;
-    left: 50%; */
-    transform: translate(0%, -110%);
-    text-align: center;
-    z-index: 1;
-  }
-  
-  /* .text-overlay::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1; 
-  } */
   
   .pcontent {
     font-size: 1.2em;
@@ -63,7 +40,7 @@
     font-family: 'Macondo Swash Caps', cursive;
   }
   .pcontent img{
-    width: 185px;
+    width: 210px;
   }
 
   .pwhat{
@@ -111,24 +88,71 @@
     background-color: #331a06;
   }
 
-  .section {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    transition: transform 0.8s ease-in-out;
-    perspective: 1000px;
-    backface-visibility: hidden;
+  .policy-conclave-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.section-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  transition: transform 0.8s ease-in-out;
+  perspective: 1000px;
+  backface-visibility: hidden;
+}
+
+.section-hidden {
+  transform: rotateY(-180deg);
+}
+
+.section-visible {
+  transform: rotateY(0);
+}
+
+@media only screen and (max-width: 768px) {
+  .pcontent{
+    max-width: 84%;
   }
-  
-  .section-hidden {
-    transform: rotateY(-180deg);
+  .phead{
+    font-size: 1.5em;
+    margin-top: 30px;
   }
-  
-  .section-visible {
-    transform: rotateY(0);
+  .pcontent p {
+    font-size: 13px;
+    margin: 5px 10px;
   }
+  .pcontent img{
+    width: 125px;
+  }
+  .pwhat{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .whatcard{
+    width: 80%;
+  }
+  .whatcard img{
+    width: 68%;
+  }
+  .ptext h3{
+    padding-top: 40px;
+  }
+  .ptext p{
+    margin: 5px 5px;
+    font-size: 14px;
+  }
+}
+
   
   
   

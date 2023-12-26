@@ -50,21 +50,30 @@ function App() {
   const[loading,setLoading]=useState(false);
   const [showNavbarAndFooter, setShowNavbarAndFooter] = useState(true);
   const [showEventPopup, setShowEventPopup] = useState(false);
-  useEffect(()=>{
-    setLoading(true)
+
+  useEffect(() => {
+    setLoading(true);
     setTimeout(() => {
-      setLoading(false)
-      setShowEventPopup(true) // Display the event popup
-  
-      // Close the event popup after a certain duration (e.g., 5000 milliseconds)
-      setTimeout(() => {
-        setShowEventPopup(false)
-      }, 100000)
-    }, 2000)
-  }, [])
+      setLoading(false);
+
+      const visitedPolicyConclavePage = sessionStorage.getItem('visitedPolicyConclavePage');
+
+      if (!visitedPolicyConclavePage) {
+        setShowEventPopup(true); // Display the event popup on pages other than PolicyConclave
+
+        // Close the event popup after a certain duration (e.g., 5000 milliseconds)
+        setTimeout(() => {
+          setShowEventPopup(false);
+        }, 100000); // Adjust the duration as needed
+      }
+    }, 20000);
+  }, []);
+
   const closeEventPopup = () => {
     setShowEventPopup(false);
+    sessionStorage.setItem('visitedPolicyConclavePage', 'true'); // Mark PolicyConclave page as visited
   };
+
   return (
     <div className="App">
       {
@@ -129,8 +138,8 @@ function App() {
       </Router>
        
        
-      {showNavbarAndFooter && <Footer />}
-    {/* <Footer/> */}
+      {/* {showNavbarAndFooter && <Footer />} */}
+    <Footer/>
     </>
     }
   </div>
