@@ -66,7 +66,7 @@ function App() {
           setShowEventPopup(false);
         }, 100000); // Adjust the duration as needed
       }
-    }, 20000);
+    }, 1000);
   }, []);
 
   const closeEventPopup = () => {
@@ -87,7 +87,7 @@ function App() {
       /></center>
         :
         <>
-        {showEventPopup && <EventPopup onClose={closeEventPopup} />}
+        {showEventPopup && <EventPopup onClose={closeEventPopup} />} 
         <Router>
           {showNavbarAndFooter && <Navbar />}
         {/* <Navbar/> */}

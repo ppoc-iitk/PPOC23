@@ -86,19 +86,20 @@ background-repeat:no-repeat ;
   }
   .p-box .image-sed-law {
     height: 200px;
-    width: 180px;
+    width: 170px;
   }
   .p-box .overlap {
     height: 200px;
-    width: 372px;
+    width: 335px;
   }
   .p-box .read-button {
-    left: 200px;
+    left: 195px;
   }
   .p-box .div {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 500;
-    left: 184px;
+    left: 164px;
+    top: 50px;
   }
   .flex1-card-image{
     width: 100%;

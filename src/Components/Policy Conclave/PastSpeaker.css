@@ -234,5 +234,14 @@ strong {
   }
   .canvas{
     margin-bottom: 10px;
+    height: 220px;
+    width: 220px;
+  }
+  .canvas_img {
+    max-width: 160px;
+    max-height: 160px;
+  }
+  .past-head{
+    margin-top: 60px;
   }
 }

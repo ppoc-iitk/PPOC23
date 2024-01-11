@@ -16,7 +16,7 @@ export default function Section2() {
             </div>
             <h1 className='phead'>Policy  Conclave’ 24 - THE  FORTUITOUS  DECANNIUM  </h1>
             <div className="punder"></div>
-            <div className="pcontent">
+            <div className="pcontent flex-dir">
               <p>
                 Step into the dynamic landscape of India's last decade, marked by unprecedented growth and achievements. From economic progress to diplomatic influence and technological advancements, the nation has seen it all. Now, anticipate the Policy Conclave'24, where we'll exclusively explore the intricacies of India's policy landscape. Join us for insightful discussions, debates, and a closer look at the future challenges as we gear up for this pivotal event, aiming to shape a robust policy framework for the years ahead.
               </p>

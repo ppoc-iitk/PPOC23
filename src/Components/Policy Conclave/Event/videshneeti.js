@@ -11,7 +11,7 @@ const Event = () => {
           backgroundImage: 'url("https://i.postimg.cc/jSdrmZx3/page.jpg")',
         }}
       >
-        <div className="background-image1">
+        <div className="background-image1 eventpage">
           <div className="flexbox2">
             <div className="p-container">
               <h1>Videsh Neeti</h1>
@@ -32,14 +32,14 @@ const Event = () => {
                 diplomacy in an ever changing world.
               </p>
               <img
-                src="https://picsum.photos/400/250"
+                src="/Events/videshneeti.jpeg"
                 alt="Description of your image"
               />
               <br></br>
             </div>
             <center>
               <div>
-                <a href="register.html" className="register-button">
+                <a href="https://unstop.com/p/videsh-neeti-iit-kanpur-853341" className="register-button">
                   Register Now
                 </a>
               </div>

@@ -121,34 +121,39 @@
 
 @media only screen and (max-width: 768px) {
   .pcontent{
-    max-width: 84%;
+    max-width: 80%;
+    flex-direction: column;
+    margin: 15px auto;
   }
   .phead{
-    font-size: 1.5em;
-    margin-top: 30px;
+    font-size: 1.9em;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .flex-dir{
+    flex-direction: column-reverse !important;
   }
   .pcontent p {
-    font-size: 13px;
-    margin: 5px 10px;
-  }
-  .pcontent img{
-    width: 125px;
+    font-size: 14px;
+    margin: 8px 10px;
   }
   .pwhat{
     flex-direction: column;
     justify-content: center;
   }
   .whatcard{
-    width: 80%;
+    width: 74%;
+    margin: 10px 0;
   }
   .whatcard img{
-    width: 68%;
+    width: 70%;
   }
   .ptext h3{
     padding-top: 40px;
   }
   .ptext p{
-    margin: 5px 5px;
+    margin: 5px 10px;
     font-size: 14px;
   }
 }
