@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './section.css'
 export default function Section2() {
   return (
     <div className='psection pevent'>
@@ -7,14 +7,15 @@ export default function Section2() {
         <center>
             <h1 className="phead">What is POLICY CONCLAVE ? </h1>
           </center>
-            <div className="punder"></div>
             <div className="pcontent">
               <img src="parliament.webp" alt="" />
               <p>
                 Policy Conclave is the annual flagship event of PPOC, IITK, usually hosted in January. An exhaustive three-day long chain of events organised in Webinars, Competitions and Workshops designed to enrich the audience with knowledge on Public Issues and Policy Research. If you are a college student seeking to know and understand Public Opinion and its implementation in real life, Policy Conclave is the one-stop destination for you.
               </p>
             </div>
+            <center>
             <h1 className='phead'>Policy  Conclave’ 24 - THE  FORTUITOUS  DECANNIUM  </h1>
+            </center>
             <div className="punder"></div>
             <div className="pcontent flex-dir">
               <p>

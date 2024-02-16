@@ -48,7 +48,6 @@ import React, { useEffect } from 'react';
 import './PolicyConclave.css';
 import './Policy Conclave/section.css';
 import Home from './Policy Conclave/Home';
-import Section1 from './Policy Conclave/Section1';
 import Section2 from './Policy Conclave/Section2';
 import Section3 from './Policy Conclave/WhatWedo';
 import Event from './Policy Conclave/event'
@@ -59,7 +58,7 @@ export default function PolicyConclave({ setShowNavbarAndFooter }) {
   useEffect(() => {
     setShowNavbarAndFooter(false);
     // Marking PolicyConclave page as visited when it mounts
-    sessionStorage.setItem('visitedPolicyConclavePage', 'true');
+    // sessionStorage.setItem('visitedPolicyConclavePage', 'true');
 
     return () => {
       setShowNavbarAndFooter(true);
@@ -69,7 +68,6 @@ export default function PolicyConclave({ setShowNavbarAndFooter }) {
   return (
     <>
       <Home/>
-      <Section1/>
       <Section2/>
       <Section3/>
       <Event/>

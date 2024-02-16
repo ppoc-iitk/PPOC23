@@ -1,345 +1,87 @@
 import React from "react";
 import "./PastSpeaker.css";
 
-export default function PastSpeaker() {
+const PastSpeaker = () => {
   return (
-    <div className="pastspeaker pevent" id="pastspeaker">
-      <div className="past-content">
-        <div className="past-container">
-          {/* <img src="Text (1).svg" style={{ height: "55px" }} /> */}
-          <h1 className='past-head'>Past Speakers</h1>
-        </div>
-        <div className="canvas-wrapper">
-          <a href="#" className="canvas">
-            <div className="canvas_border">
-              <svg>
-                <defs>
-                  <linearGradient
-                    id="grad-orange"
-                    x1="0%"
-                    y1="0%"
-                    x2="100%"
-                    y2="0%"
-                  >
-                    <stop
-                      offset="0%"
-                      style={{"stop-color":"rgb(253,137,68)","stop-opacity":"1"}}
-                    ></stop>
-                    <stop
-                      offset="100%"
-                      style={{"stop-color":"rgb(153,75,23)","stop-opacity":"1"}}
-                    ></stop>
-                  </linearGradient>
-                  <linearGradient
-                    id="grad-red"
-                    x1="0%"
-                    y1="0%"
-                    x2="100%"
-                    y2="0%"
-                  >
-                    <stop offset="0%" stop-color="#D34F48"></stop>
-                    <stop offset="100%" stop-color="#772522"></stop>
-                  </linearGradient>
-                </defs>
-                <rect
-                  id="rect-grad"
-                  className="rect-gradient"
-                  fill="none"
-                  stroke="url(#grad-orange)"
-                  stroke-linecap="square"
-                  stroke-width="4"
-                  stroke-miterlimit="30"
-                  width="60%"
-                  height="60%"
-                ></rect>
-              </svg>
-            </div>
-            <div className="canvas_img-wrapper">
-              <img className="canvas_img" src="Speakers/piyush.jpg" alt="" />
-            </div>
-            <div className="canvas_copy canvas_copy--left">
-              <span className="canvas_copy_subtitle">Hello</span>
-              <strong className="canvas_copy_title">Piyush</strong>
-              <strong className="canvas_copy_title">Goyal</strong>
-              <span className="canvas_copy_details">Indian politician</span>
-            </div>
-          </a>
-
-          <a href="#" className="canvas">
-            <div className="canvas_border">
-              <svg>
-                <defs>
-                  <linearGradient
-                    id="grad-orange"
-                    x1="0%"
-                    y1="0%"
-                    x2="100%"
-                    y2="0%"
-                  >
-                    <stop
-                      offset="0%"
-                      style={{"stop-color":"rgb(253,137,68)","stop-opacity":"1"}}
-                    ></stop>
-                    <stop
-                      offset="100%"
-                      style={{"stop-color":"rgb(153,75,23)","stop-opacity":"1"}}
-                    ></stop>
-                  </linearGradient>
-                  <linearGradient
-                    id="grad-red"
-                    x1="0%"
-                    y1="0%"
-                    x2="100%"
-                    y2="0%"
-                  >
-                    <stop offset="0%" stop-color="#D34F48"></stop>
-                    <stop offset="100%" stop-color="#772522"></stop>
-                  </linearGradient>
-                </defs>
-                <rect
-                  id="rect-grad"
-                  className="rect-gradient"
-                  fill="none"
-                  stroke="url(#grad-orange)"
-                  stroke-linecap="square"
-                  stroke-width="4"
-                  stroke-miterlimit="30"
-                  width="60%"
-                  height="60%"
-                ></rect>
-              </svg>
-            </div>
-            <div className="canvas_img-wrapper">
-              <img className="canvas_img" src="Speakers/subrimanyam.jpeg" alt="" />
-            </div>
-            <div className="canvas_copy canvas_copy--left">
-              <span className="canvas_copy_subtitle">Hello</span>
-              <strong className="canvas_copy_title">Dr. Subrimanayam</strong>
-              <strong className="canvas_copy_title">Swamy</strong>
-              <span className="canvas_copy_details">Indian politician, economist, and statistician.</span>
-            </div>
-          </a>
-          <a href="#" className="canvas">
-            <div className="canvas_border">
-              <svg>
-                <defs>
-                  <linearGradient
-                    id="grad-orange"
-                    x1="0%"
-                    y1="0%"
-                    x2="100%"
-                    y2="0%"
-                  >
-                    <stop
-                      offset="0%"
-                      style={{"stop-color":"rgb(253,137,68)","stop-opacity":"1"}}
-                    ></stop>
-                    <stop
-                      offset="100%"
-                      style={{"stop-color":"rgb(153,75,23)","stop-opacity":"1"}}
-                    ></stop>
-                  </linearGradient>
-                  <linearGradient
-                    id="grad-red"
-                    x1="0%"
-                    y1="0%"
-                    x2="100%"
-                    y2="0%"
-                  >
-                    <stop offset="0%" stop-color="#D34F48"></stop>
-                    <stop offset="100%" stop-color="#772522"></stop>
-                  </linearGradient>
-                </defs>
-                <rect
-                  id="rect-grad"
-                  className="rect-gradient"
-                  fill="none"
-                  stroke="url(#grad-orange)"
-                  stroke-linecap="square"
-                  stroke-width="4"
-                  stroke-miterlimit="30"
-                  width="60%"
-                  height="60%"
-                ></rect>
-              </svg>
-            </div>
-            <div className="canvas_img-wrapper">
-              <img className="canvas_img" src="Speakers/durgashankar.jpg" alt="" />
-            </div>
-            <div className="canvas_copy canvas_copy--left">
-              <span className="canvas_copy_subtitle">Hello</span>
-              <strong className="canvas_copy_title">Durga</strong>
-              <strong className="canvas_copy_title">Shankar Mishra</strong>
-              <span className="canvas_copy_details">Chief Secretary of Uttar Pradesh</span>
-            </div>
-          </a>
-        </div>
-        <div className="canvas-wrapper">
-          <a href="#" className="canvas">
-            <div className="canvas_border">
-              <svg>
-                <defs>
-                  <linearGradient
-                    id="grad-orange"
-                    x1="0%"
-                    y1="0%"
-                    x2="100%"
-                    y2="0%"
-                  >
-                    <stop
-                      offset="0%"
-                      style={{"stop-color":"rgb(253,137,68)","stop-opacity":"1"}}
-                    ></stop>
-                    <stop
-                      offset="100%"
-                      style={{"stop-color":"rgb(153,75,23)","stop-opacity":"1"}}
-                    ></stop>
-                  </linearGradient>
-                  <linearGradient
-                    id="grad-red"
-                    x1="0%"
-                    y1="0%"
-                    x2="100%"
-                    y2="0%"
-                  >
-                    <stop offset="0%" stop-color="#D34F48"></stop>
-                    <stop offset="100%" stop-color="#772522"></stop>
-                  </linearGradient>
-                </defs>
-                <rect
-                  id="rect-grad"
-                  className="rect-gradient"
-                  fill="none"
-                  stroke="url(#grad-orange)"
-                  stroke-linecap="square"
-                  stroke-width="4"
-                  stroke-miterlimit="30"
-                  width="60%"
-                  height="60%"
-                ></rect>
-              </svg>
-            </div>
-            <div className="canvas_img-wrapper">
-              <img className="canvas_img" src="Speakers/saurabh.jpg" alt="" />
-            </div>
-            <div className="canvas_copy canvas_copy--left">
-              <span className="canvas_copy_subtitle">Hello</span>
-              <strong className="canvas_copy_title">Saurabh</strong>
-              <strong className="canvas_copy_title">Dwivedi</strong>
-              <span className="canvas_copy_details">Indian journalist and founding editor of The Lallantop Show</span>
-            </div>
-          </a>
-
-          <a href="#" className="canvas">
-            <div className="canvas_border">
-              <svg>
-                <defs>
-                  <linearGradient
-                    id="grad-orange"
-                    x1="0%"
-                    y1="0%"
-                    x2="100%"
-                    y2="0%"
-                  >
-                    <stop
-                      offset="0%"
-                      style={{"stop-color":"rgb(253,137,68)","stop-opacity":"1"}}
-                    ></stop>
-                    <stop
-                      offset="100%"
-                      style={{"stop-color":"rgb(153,75,23)","stop-opacity":"1"}}
-                    ></stop>
-                  </linearGradient>
-                  <linearGradient
-                    id="grad-red"
-                    x1="0%"
-                    y1="0%"
-                    x2="100%"
-                    y2="0%"
-                  >
-                    <stop offset="0%" stop-color="#D34F48"></stop>
-                    <stop offset="100%" stop-color="#772522"></stop>
-                  </linearGradient>
-                </defs>
-                <rect
-                  id="rect-grad"
-                  className="rect-gradient"
-                  fill="none"
-                  stroke="url(#grad-orange)"
-                  stroke-linecap="square"
-                  stroke-width="4"
-                  stroke-miterlimit="30"
-                  width="60%"
-                  height="60%"
-                ></rect>
-              </svg>
-            </div>
-            <div className="canvas_img-wrapper">
-              <img className="canvas_img" src="Speakers/shweta.jpeg" alt="" />
-            </div>
-            <div className="canvas_copy canvas_copy--left">
-              <span className="canvas_copy_subtitle">Hello</span>
-              <strong className="canvas_copy_title">Shweta</strong>
-              <strong className="canvas_copy_title">Singh</strong>
-              <span className="canvas_copy_details"> Indian journalist and news presenter</span>
-            </div>
-          </a>
-          <a href="#" className="canvas">
-            <div className="canvas_border">
-              <svg>
-                <defs>
-                  <linearGradient
-                    id="grad-orange"
-                    x1="0%"
-                    y1="0%"
-                    x2="100%"
-                    y2="0%"
-                  >
-                    <stop
-                      offset="0%"
-                      style={{"stop-color":"rgb(253,137,68)","stop-opacity":"1"}}
-                    ></stop>
-                    <stop
-                      offset="100%"
-                      style={{"stop-color":"rgb(153,75,23)","stop-opacity":"1"}}
-                    ></stop>
-                  </linearGradient>
-                  <linearGradient
-                    id="grad-red"
-                    x1="0%"
-                    y1="0%"
-                    x2="100%"
-                    y2="0%"
-                  >
-                    <stop offset="0%" stop-color="#D34F48"></stop>
-                    <stop offset="100%" stop-color="#772522"></stop>
-                  </linearGradient>
-                </defs>
-                <rect
-                  id="rect-grad"
-                  className="rect-gradient"
-                  fill="none"
-                  stroke="url(#grad-orange)"
-                  stroke-linecap="square"
-                  stroke-width="4"
-                  stroke-miterlimit="30"
-                  width="60%"
-                  height="60%"
-                ></rect>
-              </svg>
-            </div>
-            <div className="canvas_img-wrapper">
-              <img className="canvas_img" src="Speakers/navika.jpg" alt="" />
-            </div>
-            <div className="canvas_copy canvas_copy--left">
-              <span className="canvas_copy_subtitle">Hello</span>
-              <strong className="canvas_copy_title">Navika</strong>
-              <strong className="canvas_copy_title">Kumar</strong>
-              <span className="canvas_copy_details">Indian journalist and news anchor</span>
-            </div>
-          </a>
-        </div>
+  <> 
+       
+    <div className="ps1" id="pastspeaker">
+        <div className="bg-img1"><center><h1 className='pasthead'>Past Speakers</h1></center><div className="container1">
+  <ul className="card1-list">
+    <li className="card1-listitem">
+      <div className="card1">
+        <div className="card1-image">
+        <img src="Speakers/piyush_pc.png" style={{width:"100%",height:"100%"}} />
+                  </div>
+                  <div class="card1-content">
+                <h2>Piyush Goyal<br></br>
+                <span>Indian Politician</span></h2>
+                  </div>
+                </div>
+              </li>
+              <li className="card1-listitem">
+                <div className="card1">
+                  <div className="card1-image">
+                    <img src="Speakers/subrimanayam_pc.png" style={{width:"100%",height:"100%"}} />
+                  </div>
+                  <div class="card1-content">
+                <h2>Dr Subrimanayam Swamy<br></br>
+                <span>Indian Politician, Economist and Statistician</span></h2>
+                  </div>
+                </div>
+              </li>
+              <li className="card1-listitem">
+                <div className="card1">
+                  <div className="card1-image">
+                    <img src="Speakers/durgashankar_pc.png" style={{width:"100%",height:"100%"}}  />
+                  </div>
+                  <div class="card1-content">
+                <h2>Durga Shankar mishra<br></br>
+                <span>Chief Secretary of uttar Pradesh</span></h2>
+                  </div>
+                </div>
+              </li>
+              </ul>
+              <ul className="card1-list">
+              <li className="card1-listitem">
+                <div className="card1">
+                  <div className="card1-image">
+                  <img src="Speakers/saurabh_pc.png" style={{width:"100%",height:"100%"}} />
+                  </div>
+                  <div class="card1-content">
+                <h2>Saurabh Dwivedi<br></br>
+                <span>Indian Journalist and Founding Editor of the Lallantop Show</span></h2>
+                  </div>
+                </div>
+              </li>
+              <li className="card1-listitem">
+                <div className="card1">
+                  <div className="card1-image">
+                  <img src="Speakers/sweta_pc.png" style={{width:"100%",height:"100%"}} />
+                  </div><div class="card1-content">
+                <h2>Sweta Singh<br></br>
+                <span>Indian Journalist and News Presenter</span></h2>
+                  </div>
+                </div>
+              </li>
+              <li className="card1-listitem">
+                <div className="card1">
+                  <div className="card1-image">
+                  <img src="Speakers/navika_pc.png" style={{width:"100%",height:"100%"}}  />
+                  </div>
+                  <div class="card1-content">
+                <h2>Navika Kumar<br></br>
+                <span>Indian Journalist and News Anchor</span></h2>
+                  </div>
+                </div>
+              </li>
+              
+  </ul>
+</div>
+</div>
       </div>
-    </div>
-  );
-}
+</> 
+);
+};
+
+export default PastSpeaker;

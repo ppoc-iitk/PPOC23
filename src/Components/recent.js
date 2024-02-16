@@ -17,22 +17,22 @@ const ImageSlider = () => {
   // Sample data for your slider
   const sliderData = [
     {
-      image: "recent/r1.png",
+      image: "Recent/r1.png",
       text: "Navigating global challenges at the UNHRC, Model United Nations, during IIT Kanpur's Policy Conclave. Calling all diplomats and advocates to join the discourse on human rights, 26-28 Jan 2024. Let's make an impact together! 🌍🕊️ #UNHRC #PolicyConclave2024 #pc24 #GlobalDialogue #ppoc #mygov #mea #mun",
       link:"https://www.instagram.com/p/C04ocrePlqa/",
     },
     {
-      image: "recent/r2.png",
+      image: "Recent/r2.png",
       text: "Dive into the world of nuclear diplomacy at the International Atomic Energy Agency session under MUN during IIT Kanpur's Policy Conclave. Calling all innovators and strategists to join us for insightful discussions, 26-28 Jan 2024. Let's shape the future of global security together! ☢️🌐 #IAEA #MUN #PolicyConclave2024 #GlobalSecurity #mea #mygov #ppoc #pc24 #iitk",
       link:"https://www.instagram.com/p/C06rIRgPeb4/",
     },
     {
-      image: "recent/r3.png",
+      image: "Recent/r3.png",
       text: "This is an open call for all passionate delegates and enthusiasts! Join us at the All-India Political Parties Meet, Model United Nations from Jan 26-28, 2024, Policy Conclave, for an engaging discussion on electoral reforms and the future of ethical elections.Embrace the opportunity to be a part of shaping transparent and fair electoral processes. Let's unite for change! Registration forms will be out soon to be a part of this transformative experience.", 
       link:"https://www.instagram.com/p/C02Ai8Svg5o/",
     },
     {
-      image: "recent/r4.png",
+      image: "Recent/r4.png",
       text: "Seeking solutions for global harmony! We are inviting you to the IIT Kanpur Model United Nations, Jan 26-28. Join us in the United Nations Security Council session, where we'll tackle the Israel-Palestine conflict, striving for lasting peace amidst rising tensions. Your voice matters—let's build bridges, not walls. Register now and become part of this transformative dialogue! #ppoc #policyconclave #mea #mygov #pc24 #IITKanpurMUN #UNSC #PeaceBuilding #GlobalUnity",
       link:"https://www.instagram.com/p/C09SOZxP60y/",
     },

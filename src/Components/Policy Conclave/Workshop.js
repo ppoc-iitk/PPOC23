@@ -1,44 +1,53 @@
+// components/Home.js
 import React from 'react';
-
+import './event.css';
 import './workshop.css';
+// import './page1.css';
 const Workshop = () => {
   return (
     <>
 
-      <div className="pevent" id='workshop'>
-        <div className="background-image1"><center><h1 className='phead'>Workshops</h1></center>
-          <div className="flexbox1">
-            <div className="p-box">
-              <div className="eblock">
-                <div className="overlap">
+      <div className="workshop1" id="workshop">
+        <div className="background-image1"><center><h1 className='workshophead'>Workshops</h1></center>
+          <div className="flexbox2">
 
-                  <button className="read-button">
-                    <div className="overlap-group">
-                      <div className="text-wrapper">Read more</div>
-                    </div>
-                  </button>
-                  <div className="div"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Be a Politician &nbsp;&nbsp;&nbsp; &nbsp; </div>
-                  <img className="image-sed-law" alt="Image sed law" src="workshop1.jpg" />
+            <ul className="flex1-card-list">
+              <li className="flex1-card-listitem">
+                <div className="flex1-card">
+                  <div className="flex1-card-image">
+                    <img src="workshop1.jpg" />
+                  </div>
+                  <div className="flex1-card-content">
+                    <h3 className="flex1-card-heading">Be a Politician</h3>
+                    <button className="read-button">
+                      <div className="overlap-group">
+                        <div className="text-wrapper"><center>Read More</center></div>
+                      </div>
+                    </button>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div className="p-box">
-              <div className="eblock">
-                <div className="overlap">
-
-                  <button className="read-button">
-                    <div className="overlap-group">
-                      <div className="text-wrapper">Read more</div>
-                    </div>
-                  </button>
-                  <div className="div">Data Analysis and Strategy making</div>
-                  <img className="image-sed-law" alt="Image sed law" src="workshop2.jpg" />
+              </li>
+              <li className="flex1-card-listitem">
+                <div className="flex1-card">
+                  <div className="flex1-card-image">
+                    <img src="workshop2.jpg" />
+                  </div>
+                  <div className="flex1-card-content">
+                    <h3 className="flex1-card-heading">Data Analysis </h3>
+                    <h3 className="flex1-card-heading">and Strategy making</h3>
+                    <button className="read-button">
+                      <div className="overlap-group">
+                        <div className="text-wrapper"><center>Read More</center></div>
+                      </div>
+                    </button>
+                  </div>
                 </div>
-              </div>
-            </div>
+              </li>
+            </ul>
           </div>
         </div>
-      </div></>
+      </div>
+    </>
   );
 };
 

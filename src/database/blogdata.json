@@ -1,6 +1,13 @@
 {
     "blogs": [
         {
+            "id": 22,
+            "name": "Interim Budget Article-Developed India @ 2047",
+            "content": "The Union Budget for a year is referred to as the Annual financial statement under Article 112 of the Indian Constitution...", 
+            "Read more": "/interium-budget",
+            "image":"https://i.postimg.cc/CKh02zn2/Whats-App-Image-2024-02-15-at-12-15-43-PM.jpg"
+        },
+        {
             "id": 21,
             "name": "Navigating the Global Economic Storm: India's Resilience Amidst Recessionary Fears",
             "content": "The global economy is teetering on the brink of a recession, with significant players like the United States, the Eurozone, and China facing economic headwinds. While the specter of...", 

@@ -34,6 +34,7 @@ import Blog18 from "./Components/blogs/Recent_Development";
 import Blog19 from "./Components/blogs/UP_Population";
 import Blog20 from "./Components/blogs/Privatisation";
 import Blog21 from "./Components/blogs/Navigating-economic-storm";
+import Blog22 from "./Components/blogs/Interium_Budget_Article";
 import Project1 from "./Components/Projects/Guestimating";
 import Project2 from "./Components/Projects/Inside_Out";
 import Project3 from "./Components/Projects/India_Social";
@@ -49,30 +50,30 @@ import Event5 from "./Components/Policy Conclave/Event/videshneeti"
 function App() {
   const[loading,setLoading]=useState(false);
   const [showNavbarAndFooter, setShowNavbarAndFooter] = useState(true);
-  const [showEventPopup, setShowEventPopup] = useState(false);
+  // const [showEventPopup, setShowEventPopup] = useState(false);
 
-  useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
+  // useEffect(() => {
+  //   setLoading(true);
+  //   setTimeout(() => {
+  //     setLoading(false);
 
-      const visitedPolicyConclavePage = sessionStorage.getItem('visitedPolicyConclavePage');
+  //     const visitedPolicyConclavePage = sessionStorage.getItem('visitedPolicyConclavePage');
 
-      if (!visitedPolicyConclavePage) {
-        setShowEventPopup(true); // Display the event popup on pages other than PolicyConclave
+  //     if (!visitedPolicyConclavePage) {
+  //       setShowEventPopup(true); // Display the event popup on pages other than PolicyConclave
 
-        // Close the event popup after a certain duration (e.g., 5000 milliseconds)
-        setTimeout(() => {
-          setShowEventPopup(false);
-        }, 100000); // Adjust the duration as needed
-      }
-    }, 1000);
-  }, []);
+  //       // Close the event popup after a certain duration (e.g., 5000 milliseconds)
+  //       setTimeout(() => {
+  //         setShowEventPopup(false);
+  //       }, 100000); // Adjust the duration as needed
+  //     }
+  //   }, 1000);
+  // }, []);
 
-  const closeEventPopup = () => {
-    setShowEventPopup(false);
-    sessionStorage.setItem('visitedPolicyConclavePage', 'true'); // Mark PolicyConclave page as visited
-  };
+  // const closeEventPopup = () => {
+  //   setShowEventPopup(false);
+  //   sessionStorage.setItem('visitedPolicyConclavePage', 'true'); // Mark PolicyConclave page as visited
+  // };
 
   return (
     <div className="App">
@@ -87,7 +88,7 @@ function App() {
       /></center>
         :
         <>
-        {showEventPopup && <EventPopup onClose={closeEventPopup} />} 
+        {/* {showEventPopup && <EventPopup onClose={closeEventPopup} />}  */}
         <Router>
           {showNavbarAndFooter && <Navbar />}
         {/* <Navbar/> */}
@@ -124,6 +125,7 @@ function App() {
             <Route path="/UP-population-bill-2021" element={<Blog19/>}></Route>
             <Route path="/Privatisation-and-its-impact-on-economy" element={<Blog20/>}></Route>
             <Route path="/Navigating-economic-storm" element={<Blog21/>}></Route>
+            <Route path="/interium-budget" element={<Blog22/>}></Route>
             <Route path="/Guesstimating" element={<Project1/>}></Route>
             <Route path="/inside-out" element={<Project2/>}></Route>
             <Route path="/indias-social" element={<Project3/>}></Route>

@@ -1,21 +1,19 @@
-import React from "react";
-import "./event.css";
+// components/Home.js
+import React from 'react';
 
+import './event.css';
+// import './page1.css';
 const Event = () => {
   return (
-    <>
-      <div className="pevent" id="pevents">
-        <div className="background-image1 height">
-          <center>
-            <h1 className="phead">Events</h1>
-          </center>
-          <div className="punder"></div>
-          <div className="flexbox">
-            <ul className="flex-card-list">
-              <li className="flex-card-listitem">
-                <div className="flex-card">
-                  <div className="flex-card-image">
-                    <img src="/Events/rajneeti.jpeg" />
+  <> 
+       
+        <div className="event1" id="pevents">
+        <div className="background-image1"><center><h1 className='eventshead'>Events</h1></center><div className="flexbox1">
+  <ul className="flex-card-list">
+    <li className="flex-card-listitem">
+      <div className="flex-card">
+        <div className="flex-card-image">
+        <img src="/Events/rajneeti.jpeg" />
                   </div>
                   <div className="flex-card-content">
                     {/* <h3 className="flex-card-heading">Rajneeti</h3> */}
@@ -66,11 +64,11 @@ const Event = () => {
                   </div>
                 </div>
               </li>
-            </ul>
-          </div>
-        </div>
+  </ul>
+</div>
+</div>
       </div>
-    </>
+</> 
   );
 };
 
